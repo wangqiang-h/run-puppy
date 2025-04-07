@@ -1,8 +1,9 @@
 import { createApp } from 'vue';
-import './style.css';
 import App from './App.vue';
-import router from './router';
+import PhoneFrame from './components/PhoneFrame.vue';
+import router from './router'; // 如果你使用了路由
 
 const app = createApp(App);
+app.component('PhoneFrame', PhoneFrame);
 app.use(router);
 app.mount('#app');
