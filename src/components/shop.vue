@@ -1,112 +1,118 @@
 <template>
-    <div class="main-container">
-      <div class="top-navigation">
-        <div class="status-bar">
-          <div class="left-side">
-            <div class="status-bar-time"><span class="time">9:41</span></div>
+<div class="main-container">
+    <div class="top-navigation">
+      <div class="status-bar">
+        <div class="left-side">
+          <div class="status-bar-time"><span class="time">9:41</span></div>
+        </div>
+        <div class="dynamic-island">
+          <div class="status-bar-dynamic-island">
+            <div class="true-depth-camera"></div>
+            <div class="facetime-camera"></div>
           </div>
-          <div class="dynamic-island">
-            <div class="status-bar-dynamic-island">
-              <div class="true-depth-camera"></div>
-              <div class="facetime-camera"></div>
-            </div>
-          </div>
-          <div class="right-side">
-            <div class="signal-wifi-battery">
-              <div class="icon-mobile-signal"></div>
-              <div class="wifi"></div>
-              <div class="status-bar-battery"></div>
-            </div>
+        </div>
+        <div class="right-side">
+          <div class="signal-wifi-battery">
+            <div class="icon-mobile-signal"></div>
+            <div class="wifi"></div>
+            <div class="status-bar-battery"></div>
           </div>
         </div>
       </div>
-      <div class="frame">
-        <div class="magnifier"></div>
-        <span class="search-here">Search here</span>
-      </div>
-      <span class="results-week">Results of the week</span>
-      <div class="rectangle">
-        <div class="flex-row-b">
-          <span class="mon">mon</span><span class="tue">tue</span
-          ><span class="wed">wed</span><span class="thu">thu</span
-          ><span class="fri">fri</span><span class="sat">sat</span
-          ><span class="sun">sun</span>
-        </div>
-        <div class="flex-row-c">
-          <div class="ellipse"></div>
-          <div class="ellipse-1"></div>
-          <div class="ellipse-2"></div>
-          <div class="ellipse-3"></div>
-          <div class="ellipse-4"></div>
-          <div class="ellipse-5"></div>
-          <div class="ellipse-6"></div>
-        </div>
-      </div>
-      <div class="pinterest-download" @click="goVIP">
-        <div class="rectangle-7">
-          <span class="club-vip">成为<br />俱乐部vip</span>
-        </div>
-        <div class="rectangle-8"><span class="join-member">加入会员</span></div>
-      </div>
-      <div class="message-alert"></div>
-      <div class="logo"></div>
-      <span class="pet">pet</span>
-      <div class="frame-9">
-        <span class="recommendation">Recommendation</span>
-        <div class="frame-a">
-          <div class="frame-b">
-            <div class="frame-c">
-              <div class="img-9"></div>
-              <div class="frame-d">
-                <span class="siamese-cat">Siamese Cat</span
-                ><span class="price">$123,00</span>
-              </div>
-              <div class="frame-e">
-                <div class="star"></div>
-                <span class="rating">4.7</span>
-              </div>
-            </div>
-            <div class="frame-f">
-              <div class="section"></div>
-              <div class="frame-10">
-                <span class="siamese-cat-11">Siamese Cat</span
-                ><span class="price-12">$123,00</span>
-              </div>
-              <div class="frame-13">
-                <div class="star-14"></div>
-                <span class="rating-15">4.7</span>
-              </div>
-            </div>
-          </div>
-          <div class="frame-16">
-            <div class="frame-17">
-              <div class="download-section"></div>
-              <div class="frame-18">
-                <span class="siamese-cat-19">Siamese Cat</span
-                ><span class="price-1a">$123,00</span>
-              </div>
-              <div class="frame-1b">
-                <div class="star-1c"></div>
-                <span class="rating-1d">4.7</span>
-              </div>
-            </div>
-            <div class="frame-1e">
-              <div class="pinterest-download-1f"></div>
-              <div class="frame-20">
-                <span class="siamese-cat-21">Siamese Cat</span
-                ><span class="price-22">$123,00</span>
-              </div>
-              <div class="frame-23">
-                <div class="star-24"></div>
-                <span class="rating-25">4.7</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <span class="see-all">See All</span>
-      </div>
-      <div class="home-indicator"></div>
     </div>
+    <div class="frame">
+      <div class="magnifier"></div>
+      <span class="text-2">Search here</span>
+    </div>
+    <span class="text-3">Results of the week</span>
+    <div class="group-5">
+      <div class="section-4">
+        <span class="text-4">mon</span><span class="text-5">tue</span
+        ><span class="text-6">wed</span><span class="text-7">thu</span
+        ><span class="text-8">fri</span><span class="text-9">sat</span
+        ><span class="text-a">sun</span>
+      </div>
+      <div class="section-5">
+        <div class="pic-3"></div>
+        <div class="img-3"></div>
+        <div class="img-4"></div>
+        <div class="pic-4"></div>
+        <div class="pic-5"></div>
+        <div class="img-5"></div>
+        <div class="img-6"></div>
+      </div>
+    </div>
+    <div class="img-7" @click="goVIP">
+      <div class="section-6">
+        <span class="text-b">成为<br />俱乐部vip</span>
+      </div>
+      <div class="group-6"><span class="text-c">加入会员</span></div>
+    </div>
+    <div class="pic-6"></div>
+    <div class="img-8"></div>
+    <span class="text-d">Run<br />Puppy</span>
+    <div class="wrapper-3">
+      <span class="text-e">Recommendation</span>
+      <div class="section-7">
+        <div class="group-7">
+          <div class="group-8">
+            <div class="img-9"></div>
+            <div class="section-8">
+              <span class="text-f">圣诞节限定衣服</span
+              ><span class="text-10">$123,00</span>
+            </div>
+            <div class="wrapper-4">
+              <div class="img-a"></div>
+              <span class="text-11">4.7</span>
+            </div>
+          </div>
+          <div class="group-9">
+            <div class="pic-7"></div>
+            <div class="section-9">
+              <span class="text-12">小狗眼镜</span
+              ><span class="text-13">$123,00</span>
+            </div>
+            <div class="section-a">
+              <div class="img-b"></div>
+              <span class="text-14">4.7</span>
+            </div>
+          </div>
+        </div>
+        <div class="group-a">
+          <div class="box-3">
+            <div class="pic-8"></div>
+            <div class="group-b">
+              <span class="text-15">Siamese Cat</span
+              ><span class="text-16">$123,00</span>
+            </div>
+            <div class="box-4">
+              <div class="pic-9"></div>
+              <span class="text-17">4.7</span>
+            </div>
+          </div>
+          <div class="box-5">
+            <div class="img-c"></div>
+            <div class="section-b">
+              <span class="text-18">Siamese Cat</span
+              ><span class="text-19">$123,00</span>
+            </div>
+            <div class="box-6">
+              <div class="pic-a"></div>
+              <span class="text-1a">4.7</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <span class="text-1b">See All</span>
+    </div>
+    <div class="img-d">
+<div @click="goToHome"></div> 
+<div @click="goToNearby"></div> 
+<div @click="goToRunning"></div>
+<div @click="goToshop"></div>  
+    </div>
+    <div class="wrapper-5"></div>
+  </div>
   </template>
   
   <script setup>
@@ -117,9 +123,21 @@ const router = useRouter();
 const goVIP = () => {
   router.push({ name: 'vip' });
 };
+const goToRunning = () => {
+  router.push({ name: 'running' });
+};
+const goToHome  = () => {
+  router.push({ name: 'home' });
+};
+const goToNearby  = () => {
+  router.push({ name: 'nearby' });
+};
+const goToshop  = () => {
+  router.push({ name: 'shop' });
+};
 </script>
   
-  <style scoped>
+<style scoped>
 :root {
   --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
@@ -148,7 +166,7 @@ button {
   width: 393px;
   height: 852px;
   margin: 0 auto;
-  background: #ffffff;
+  background: linear-gradient(180deg, #fffcdd, #ffffff);
   overflow: hidden;
 }
 .top-navigation {
@@ -160,7 +178,6 @@ button {
   position: relative;
   width: 393px;
   margin: 0 0 0 0;
-  background: #ffffff;
   z-index: 70;
   backdrop-filter: blur(10px);
 }
@@ -295,7 +312,7 @@ button {
   position: relative;
   width: 18px;
   height: 12px;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/185010/mobile-signal-icon.svg)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/112032/mobile-signal-icon.svg)
     no-repeat center;
   background-size: cover;
   z-index: 81;
@@ -305,7 +322,7 @@ button {
   position: relative;
   width: 17px;
   height: 11.834px;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/185010/wifi-icon.svg)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/112032/wifi-icon.svg)
     no-repeat center;
   background-size: 100% 100%;
   z-index: 82;
@@ -315,7 +332,7 @@ button {
   position: relative;
   width: 27.401px;
   height: 13px;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/185010/battery-icon.svg)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/112032/battery-icon.svg)
     no-repeat center;
   background-size: cover;
   z-index: 83;
@@ -340,13 +357,13 @@ button {
   position: relative;
   width: 26.889px;
   height: 26.889px;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/185010/magnifier-icon.svg)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/112032/magnifier-icon.svg)
     no-repeat center;
   background-size: cover;
   z-index: 3;
   overflow: hidden;
 }
-.search-here {
+.text-2 {
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -364,7 +381,7 @@ button {
   white-space: nowrap;
   z-index: 4;
 }
-.results-week {
+.text-3 {
   display: block;
   position: relative;
   height: 22px;
@@ -378,7 +395,7 @@ button {
   white-space: nowrap;
   z-index: 28;
 }
-.rectangle {
+.group-5 {
   position: relative;
   width: 355.761px;
   height: 65.154px;
@@ -388,7 +405,7 @@ button {
   overflow: visible auto;
   border-radius: 14px;
 }
-.flex-row-b {
+.section-4 {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -398,7 +415,7 @@ button {
   margin: 17.581px 0 0 53.778px;
   z-index: 14;
 }
-.mon {
+.text-4 {
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -416,7 +433,7 @@ button {
   white-space: nowrap;
   z-index: 8;
 }
-.tue {
+.text-5 {
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -434,7 +451,7 @@ button {
   white-space: nowrap;
   z-index: 9;
 }
-.wed {
+.text-6 {
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -452,7 +469,7 @@ button {
   white-space: nowrap;
   z-index: 10;
 }
-.thu {
+.text-7 {
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -470,7 +487,7 @@ button {
   white-space: nowrap;
   z-index: 11;
 }
-.fri {
+.text-8 {
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -488,7 +505,7 @@ button {
   white-space: nowrap;
   z-index: 12;
 }
-.sat {
+.text-9 {
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -506,7 +523,7 @@ button {
   white-space: nowrap;
   z-index: 13;
 }
-.sun {
+.text-a {
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -524,7 +541,7 @@ button {
   white-space: nowrap;
   z-index: 14;
 }
-.flex-row-c {
+.section-5 {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -534,93 +551,93 @@ button {
   margin: 4.513px 0 0 57.915px;
   z-index: 21;
 }
-.ellipse {
+.pic-3 {
   flex-shrink: 0;
   position: relative;
   width: 15.513px;
   height: 15.513px;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/185010/ellipse-icon.svg)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/112032/profile-pic-1.svg)
     no-repeat center;
   background-size: cover;
   z-index: 15;
   border-radius: 50%;
 }
-.ellipse-1 {
+.img-3 {
   flex-shrink: 0;
   position: relative;
   width: 14.479px;
   height: 15.513px;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/185010/ellipse-1-icon.svg)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/112032/category-icon-1.svg)
     no-repeat center;
   background-size: cover;
   z-index: 16;
 }
-.ellipse-2 {
+.img-4 {
   flex-shrink: 0;
   position: relative;
   width: 15.513px;
   height: 15.513px;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/185010/ellipse-2-icon.svg)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/112032/profile-pic-2.svg)
     no-repeat center;
   background-size: cover;
   z-index: 17;
   border-radius: 50%;
 }
-.ellipse-3 {
+.pic-4 {
   flex-shrink: 0;
   position: relative;
   width: 15.513px;
   height: 15.513px;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/185010/ellipse-3-icon.svg)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/112032/profile-pic-3.svg)
     no-repeat center;
   background-size: cover;
   z-index: 18;
   border-radius: 50%;
 }
-.ellipse-4 {
+.pic-5 {
   flex-shrink: 0;
   position: relative;
   width: 15.513px;
   height: 15.513px;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/185010/ellipse-4-icon.svg)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/112032/profile-pic-4.svg)
     no-repeat center;
   background-size: cover;
   z-index: 19;
   border-radius: 50%;
 }
-.ellipse-5 {
+.img-5 {
   flex-shrink: 0;
   position: relative;
   width: 14.479px;
   height: 15.513px;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/185010/ellipse-5-icon.svg)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/112032/category-icon-2.svg)
     no-repeat center;
   background-size: cover;
   z-index: 20;
 }
-.ellipse-6 {
+.img-6 {
   flex-shrink: 0;
   position: relative;
   width: 15.513px;
   height: 15.513px;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/185010/ellipse-6-icon.svg)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/112032/profile-pic-5.svg)
     no-repeat center;
   background-size: cover;
   z-index: 21;
   border-radius: 50%;
 }
-.pinterest-download {
+.img-7 {
   position: relative;
   width: 355.761px;
   height: 85.838px;
   margin: 8.273px 0 0 20px;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/185010/pinterest-download-bg.png)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/112032/banner-image.png)
     no-repeat center;
   background-size: cover;
   z-index: 23;
   border-radius: 14px;
 }
-.rectangle-7 {
+.section-6 {
   position: absolute;
   width: 100.316px;
   height: 58.949px;
@@ -630,7 +647,7 @@ button {
   z-index: 24;
   border-radius: 13.444px;
 }
-.club-vip {
+.text-b {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -648,7 +665,7 @@ button {
   text-transform: capitalize;
   z-index: 25;
 }
-.rectangle-8 {
+.group-6 {
   position: absolute;
   width: 69.291px;
   height: 31.026px;
@@ -658,7 +675,7 @@ button {
   z-index: 26;
   border-radius: 8.274px;
 }
-.join-member {
+.text-c {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -676,54 +693,55 @@ button {
   white-space: nowrap;
   z-index: 27;
 }
-.message-alert {
+.pic-6 {
   position: absolute;
   width: 62.051px;
   height: 62.051px;
   top: 59px;
   left: 320.949px;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/185010/message-alert-icon.svg)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/112032/circular-profile.svg)
     no-repeat center;
   background-size: cover;
   overflow: hidden;
 }
-.logo {
+.img-8 {
   position: absolute;
   width: 36.197px;
   height: 40.334px;
   top: 70.376px;
   left: 22.068px;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/185010/pet-logo.svg)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/112032/logo-icon.svg)
     no-repeat center;
   background-size: cover;
   z-index: 68;
   overflow: hidden;
 }
-.pet {
+.text-d {
   display: flex;
   align-items: flex-start;
-  justify-content: center;
+  justify-content: flex-start;
   position: absolute;
-  width: 47.574px;
-  height: 33.095px;
+  width: 54px;
+  height: 32px;
   top: 73.479px;
-  left: 66.538px;
+  left: 65.538px;
   color: #000000;
   font-family: Tsukushi B Round Gothic, var(--default-font-family);
-  font-size: 32.80961608886719px;
+  font-size: 15.862500190734863px;
   font-weight: 400;
-  line-height: 32.81px;
-  text-align: center;
-  text-transform: capitalize;
-  white-space: nowrap;
+  line-height: 15.863px;
+  text-align: left;
+  text-overflow: initial;
+  text-transform: uppercase;
   z-index: 69;
+  overflow: hidden;
   -webkit-text-stroke: 1.367px #000000;
 }
-.frame-9 {
+.wrapper-3 {
   display: flex;
   align-items: flex-start;
   flex-wrap: wrap;
-  gap: 158.231px;
+  gap: 10px;
   position: absolute;
   width: 355.761px;
   height: 550.188px;
@@ -731,7 +749,7 @@ button {
   left: 20px;
   z-index: 29;
 }
-.recommendation {
+.text-e {
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -749,7 +767,7 @@ button {
   white-space: nowrap;
   z-index: 30;
 }
-.frame-a {
+.section-7 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -759,7 +777,7 @@ button {
   width: 355.761px;
   z-index: 32;
 }
-.frame-b {
+.group-7 {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -770,7 +788,7 @@ button {
   min-width: 0;
   z-index: 33;
 }
-.frame-c {
+.group-8 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -787,13 +805,13 @@ button {
   position: relative;
   min-width: 0;
   height: 186.154px;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/185010/siamese-cat-image.png)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/112032/product-image-1.png)
     no-repeat center;
   background-size: cover;
   z-index: 35;
   border-radius: 22.752px;
 }
-.frame-d {
+.section-8 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -807,7 +825,7 @@ button {
   padding: 7.239px 0 7.239px 0;
   z-index: 36;
 }
-.siamese-cat {
+.text-f {
   align-self: stretch;
   flex-shrink: 0;
   flex-basis: auto;
@@ -816,14 +834,14 @@ button {
   color: #000000;
   font-family: Inter, var(--default-font-family);
   font-size: 16.031185150146484px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 19px;
   text-align: left;
   text-transform: capitalize;
   white-space: nowrap;
   z-index: 37;
 }
-.price {
+.text-10 {
   align-self: stretch;
   flex-shrink: 0;
   flex-basis: auto;
@@ -839,7 +857,7 @@ button {
   white-space: nowrap;
   z-index: 38;
 }
-.frame-e {
+.wrapper-4 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -856,18 +874,18 @@ button {
   overflow: hidden;
   border-radius: 12.927px;
 }
-.star {
+.img-a {
   flex-shrink: 0;
   position: relative;
   width: 17.582px;
   height: 17.582px;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/185010/star-rating-icon.svg)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/112032/rating-icon-1.svg)
     no-repeat center;
   background-size: cover;
   z-index: 40;
   border-radius: 0.52px;
 }
-.rating {
+.text-11 {
   flex-shrink: 0;
   flex-basis: auto;
   position: relative;
@@ -882,7 +900,7 @@ button {
   white-space: nowrap;
   z-index: 41;
 }
-.frame-f {
+.group-9 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -893,19 +911,19 @@ button {
   width: 173.744px;
   z-index: 42;
 }
-.section {
+.pic-7 {
   align-self: stretch;
   flex-shrink: 0;
   position: relative;
   min-width: 0;
   height: 186.154px;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/185010/cat-product-image.png)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/112032/product-image-2.png)
     no-repeat center;
   background-size: cover;
   z-index: 43;
   border-radius: 22.752px;
 }
-.frame-10 {
+.section-9 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -919,7 +937,7 @@ button {
   padding: 7.239px 0 7.239px 0;
   z-index: 44;
 }
-.siamese-cat-11 {
+.text-12 {
   align-self: stretch;
   flex-shrink: 0;
   flex-basis: auto;
@@ -928,14 +946,14 @@ button {
   color: #000000;
   font-family: Inter, var(--default-font-family);
   font-size: 16.031185150146484px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 19px;
   text-align: left;
   text-transform: capitalize;
   white-space: nowrap;
   z-index: 45;
 }
-.price-12 {
+.text-13 {
   align-self: stretch;
   flex-shrink: 0;
   flex-basis: auto;
@@ -951,7 +969,7 @@ button {
   white-space: nowrap;
   z-index: 46;
 }
-.frame-13 {
+.section-a {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -968,18 +986,18 @@ button {
   overflow: hidden;
   border-radius: 12.927px;
 }
-.star-14 {
+.img-b {
   flex-shrink: 0;
   position: relative;
   width: 17.582px;
   height: 17.582px;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/185010/star-rating-icon-2.svg)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/112032/rating-icon-2.svg)
     no-repeat center;
   background-size: cover;
   z-index: 48;
   border-radius: 0.52px;
 }
-.rating-15 {
+.text-14 {
   flex-shrink: 0;
   flex-basis: auto;
   position: relative;
@@ -994,7 +1012,7 @@ button {
   white-space: nowrap;
   z-index: 49;
 }
-.frame-16 {
+.group-a {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -1005,7 +1023,7 @@ button {
   min-width: 0;
   z-index: 50;
 }
-.frame-17 {
+.box-3 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -1016,19 +1034,19 @@ button {
   width: 173.744px;
   z-index: 51;
 }
-.download-section {
+.pic-8 {
   align-self: stretch;
   flex-shrink: 0;
   position: relative;
   min-width: 0;
   height: 186.154px;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/185010/pet-product-image-3.png)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/112032/product-image-3.png)
     no-repeat center;
   background-size: cover;
   z-index: 52;
   border-radius: 22.752px;
 }
-.frame-18 {
+.group-b {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -1042,7 +1060,7 @@ button {
   padding: 7.239px 0 7.239px 0;
   z-index: 53;
 }
-.siamese-cat-19 {
+.text-15 {
   align-self: stretch;
   flex-shrink: 0;
   flex-basis: auto;
@@ -1058,7 +1076,7 @@ button {
   white-space: nowrap;
   z-index: 54;
 }
-.price-1a {
+.text-16 {
   align-self: stretch;
   flex-shrink: 0;
   flex-basis: auto;
@@ -1074,7 +1092,7 @@ button {
   white-space: nowrap;
   z-index: 55;
 }
-.frame-1b {
+.box-4 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1091,18 +1109,18 @@ button {
   overflow: hidden;
   border-radius: 12.927px;
 }
-.star-1c {
+.pic-9 {
   flex-shrink: 0;
   position: relative;
   width: 17.582px;
   height: 17.582px;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/185010/star-rating-icon-3.svg)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/112032/rating-icon-3.svg)
     no-repeat center;
   background-size: cover;
   z-index: 57;
   border-radius: 0.52px;
 }
-.rating-1d {
+.text-17 {
   flex-shrink: 0;
   flex-basis: auto;
   position: relative;
@@ -1117,7 +1135,7 @@ button {
   white-space: nowrap;
   z-index: 58;
 }
-.frame-1e {
+.box-5 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -1128,19 +1146,19 @@ button {
   width: 173.744px;
   z-index: 59;
 }
-.pinterest-download-1f {
+.img-c {
   align-self: stretch;
   flex-shrink: 0;
   position: relative;
   min-width: 0;
   height: 186.154px;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/185010/pet-product-image-4.png)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/112032/product-image-4.png)
     no-repeat center;
   background-size: cover;
   z-index: 60;
   border-radius: 22.752px;
 }
-.frame-20 {
+.section-b {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -1154,7 +1172,7 @@ button {
   padding: 7.239px 0 7.239px 0;
   z-index: 61;
 }
-.siamese-cat-21 {
+.text-18 {
   align-self: stretch;
   flex-shrink: 0;
   flex-basis: auto;
@@ -1170,7 +1188,7 @@ button {
   white-space: nowrap;
   z-index: 62;
 }
-.price-22 {
+.text-19 {
   align-self: stretch;
   flex-shrink: 0;
   flex-basis: auto;
@@ -1186,7 +1204,7 @@ button {
   white-space: nowrap;
   z-index: 63;
 }
-.frame-23 {
+.box-6 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1203,18 +1221,18 @@ button {
   overflow: hidden;
   border-radius: 12.927px;
 }
-.star-24 {
+.pic-a {
   flex-shrink: 0;
   position: relative;
   width: 17.582px;
   height: 17.582px;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/185010/star-rating-icon-4.svg)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/112032/rating-icon-4.svg)
     no-repeat center;
   background-size: cover;
   z-index: 65;
   border-radius: 0.52px;
 }
-.rating-25 {
+.text-1a {
   flex-shrink: 0;
   flex-basis: auto;
   position: relative;
@@ -1229,7 +1247,7 @@ button {
   white-space: nowrap;
   z-index: 66;
 }
-.see-all {
+.text-1b {
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -1245,9 +1263,28 @@ button {
   text-align: center;
   text-transform: capitalize;
   white-space: nowrap;
-  z-index: 31;
+  z-index: 100;
 }
-.home-indicator {
+.img-d {
+  position: absolute;
+  width: 364px;
+  height: 87px;
+  top: 736px;
+  left: 16px;
+  background: url(https://static.codia.ai/custom_image/2025-04-07/112032/navigation-bar.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 86;
+  border-radius: 29.5px;
+  display: flex; 
+
+}
+.img-d > div {
+            width: 25%;
+            height: 100%;
+            cursor: pointer;
+}
+.wrapper-5 {
   position: absolute;
   height: 5px;
   right: 129px;
@@ -1259,4 +1296,5 @@ button {
 }
 
 </style>
+
   

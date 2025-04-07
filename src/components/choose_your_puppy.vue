@@ -556,7 +556,7 @@ button {
   position: absolute;
   height: 29px;
   top: 29px;
-  left: 139px;
+  left: 86px;
   color: #ffffff;
   font-family: AR DCCSTMoritaGB, var(--default-font-family);
   font-size: 21.79608917236328px;
@@ -614,8 +614,8 @@ button {
   top: 4px;
   left: 56px;
   color: #000000;
-  font-family: AR DCCSTMoritaGB, var(--default-font-family);
-  font-size: 18px;
+  font-family:  AR DCCSTMoritaGB, var(--default-font-family);
+  font-size: 16px;
   font-weight: 700;
   line-height: 23.742px;
   text-align: right;

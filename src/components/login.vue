@@ -1,52 +1,53 @@
 <template>
-    <div class="main-container">
-      <div class="top-navigation">
-        <div class="status-bar">
-          <div class="left-side">
-            <div class="status-bar-time"><span class="time">9:41</span></div>
+  <div class="main-container">
+    <div class="group">
+      <div class="box">
+        <div class="wrapper">
+          <div class="group-2"><span class="text">9:41</span></div>
+        </div>
+        <div class="section">
+          <div class="status-bar">
+            <div class="true-depth-camera"></div>
+            <div class="facetime-camera"></div>
           </div>
-          <div class="dynamic-island">
-            <div class="status-bar-1">
-              <div class="true-depth-camera"></div>
-              <div class="facetime-camera"></div>
-            </div>
-          </div>
-          <div class="right-side">
-            <div class="signal-wifi-battery">
-              <div class="icon-mobile-signal"></div>
-              <div class="wifi"></div>
-              <div class="status-bar-battery"></div>
-            </div>
+        </div>
+        <div class="right-side">
+          <div class="signal-wifi-battery">
+            <div class="icon-mobile-signal"></div>
+            <div class="wifi"></div>
+            <div class="img-2"></div>
           </div>
         </div>
       </div>
-      <div class="frame">
-        <div class="image"></div>
-        <span class="sign-in-google" @click="goToChoseYourPuppy">Sign in with Google</span>
-      </div>
-      <div class="frame-2">
-        <div class="mask-group"></div>
-        <span class="sign-in-apple" @click="goToChoseYourPuppy">Sign in with Apple</span>
-      </div>
-      <div class="frame-3">
-        <div class="email-sign-in"></div>
-        <span class="sign-in-email" @click="goToChoseYourPuppy">Sign in with email</span>
-      </div>
-      <div class="frame-4">
-        <div class="account"></div>
-        <span class="account-sign-in" @click="goToChoseYourPuppy">Sign in with Account</span>
-      </div>
-      <div class="frame-5">
-        <div class="account-balance"></div>
-        <span class="sign-in-metamask" @click="goToChoseYourPuppy">Sign in with Metamask</span>
-      </div>
-      <div class="home-indicator"></div>
-      <div class="logo"></div>
-      <span class="pet">pet</span>
     </div>
-  </template>
+    <div class="wrapper-2">
+      <div class="img-3"></div>
+      <span class="text-2" @click="goToChoseYourPuppy">Sign in with Google</span>
+    </div>
+    <div class="wrapper-3">
+      <div class="img-4"></div>
+      <span class="text-3" @click="goToChoseYourPuppy">Sign in with Apple</span>
+    </div>
+    <div class="section-3">
+      <div class="pic-2"></div>
+      <span class="text-4" @click="goToChoseYourPuppy">Sign in with email</span>
+    </div>
+    <div class="group-4">
+      <div class="pic-3"></div>
+      <span class="text-5" @click="goToChoseYourPuppy">Sign in with Account</span>
+    </div>
+    <div class="group-5">
+      <div class="img-5"></div>
+      <span class="text-6" @click="goToChoseYourPuppy">Sign in with Metamask</span>
+    </div>
+    <div class="box-5"></div>
+    <div class="pic-4"></div>
+    <span class="text-7">Run<br />Puppy</span>
+  </div>
+</template>
+
   
-  <script setup>
+<script setup>
   import { useRouter } from 'vue-router';
 
 const router = useRouter();
@@ -56,7 +57,7 @@ const goToChoseYourPuppy = () => {
 };
 </script>
   
-  <style scoped>
+<style scoped>
 :root {
   --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
@@ -88,7 +89,7 @@ button {
   background: #ffffff;
   overflow: hidden;
 }
-.top-navigation {
+.group {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -100,7 +101,7 @@ button {
   background: #ffffff;
   backdrop-filter: blur(10px);
 }
-.status-bar {
+.box {
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -112,7 +113,7 @@ button {
   height: 59px;
   z-index: 1;
 }
-.left-side {
+.wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -128,7 +129,7 @@ button {
   padding: 0 0 3px 10px;
   z-index: 2;
 }
-.status-bar-time {
+.group-2 {
   flex-shrink: 0;
   position: relative;
   width: 54px;
@@ -136,7 +137,7 @@ button {
   z-index: 3;
   border-radius: 24px;
 }
-.time {
+.text {
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -155,7 +156,7 @@ button {
   letter-spacing: -0.32px;
   z-index: 4;
 }
-.dynamic-island {
+.section {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -168,7 +169,7 @@ button {
   min-height: 0;
   z-index: 5;
 }
-.status-bar-1 {
+.status-bar {
   flex-shrink: 0;
   position: relative;
   width: 125px;
@@ -231,7 +232,7 @@ button {
   position: relative;
   width: 18px;
   height: 12px;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/175732/mobile-signal-icon.svg)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/103408/mobile-signal-icon.svg)
     no-repeat center;
   background-size: cover;
   z-index: 11;
@@ -241,22 +242,22 @@ button {
   position: relative;
   width: 17px;
   height: 11.834px;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/175732/wifi-icon.svg)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/103408/wifi-icon.svg)
     no-repeat center;
   background-size: 100% 100%;
   z-index: 12;
 }
-.status-bar-battery {
+.img-2 {
   flex-shrink: 0;
   position: relative;
   width: 27.401px;
   height: 13px;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/175732/battery-icon.svg)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/103408/battery-icon.svg)
     no-repeat center;
   background-size: cover;
   z-index: 13;
 }
-.frame {
+.wrapper-2 {
   position: relative;
   width: 330px;
   height: 60px;
@@ -265,18 +266,18 @@ button {
   z-index: 19;
   border-radius: 10px;
 }
-.image {
+.img-3 {
   position: absolute;
   width: 28px;
   height: 29px;
   top: 15px;
   left: 42px;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/175732/google-logo.png)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/103408/menu-icon.png)
     no-repeat center;
   background-size: cover;
   z-index: 32;
 }
-.sign-in-google {
+.text-2 {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -294,7 +295,7 @@ button {
   letter-spacing: -0.4px;
   z-index: 20;
 }
-.frame-2 {
+.wrapper-3 {
   position: relative;
   width: 330px;
   height: 60px;
@@ -303,18 +304,18 @@ button {
   z-index: 21;
   border-radius: 10px;
 }
-.mask-group {
+.img-4 {
   position: absolute;
   width: 24.871px;
   height: 30.508px;
   top: 15px;
   left: 42px;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/175732/apple-logo.png)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/103408/location-icon.png)
     no-repeat center;
   background-size: cover;
   z-index: 23;
 }
-.sign-in-apple {
+.text-3 {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -332,7 +333,7 @@ button {
   letter-spacing: -0.4px;
   z-index: 22;
 }
-.frame-3 {
+.section-3 {
   position: relative;
   width: 330px;
   height: 60px;
@@ -341,19 +342,19 @@ button {
   z-index: 24;
   border-radius: 10px;
 }
-.email-sign-in {
+.pic-2 {
   position: absolute;
   width: 33px;
   height: 33px;
   top: 14px;
   left: 39px;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/175732/email-icon.svg)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/103408/profile-icon.svg)
     no-repeat center;
   background-size: cover;
   z-index: 26;
   overflow: hidden;
 }
-.sign-in-email {
+.text-4 {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -371,7 +372,7 @@ button {
   letter-spacing: -0.4px;
   z-index: 25;
 }
-.frame-4 {
+.group-4 {
   position: relative;
   width: 330px;
   height: 60px;
@@ -380,19 +381,19 @@ button {
   z-index: 27;
   border-radius: 10px;
 }
-.account {
+.pic-3 {
   position: absolute;
   width: 35px;
   height: 35px;
   top: 12px;
   left: 37px;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/175732/account-icon.svg)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/103408/settings-icon.svg)
     no-repeat center;
   background-size: cover;
   z-index: 29;
   overflow: hidden;
 }
-.account-sign-in {
+.text-5 {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -410,7 +411,7 @@ button {
   letter-spacing: -0.4px;
   z-index: 28;
 }
-.frame-5 {
+.group-5 {
   position: relative;
   width: 330px;
   height: 60px;
@@ -419,19 +420,19 @@ button {
   z-index: 30;
   border-radius: 10px;
 }
-.account-balance {
+.img-5 {
   position: absolute;
   width: 47px;
   height: 47px;
   top: 6px;
   left: 31px;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/175732/metamask-icon.svg)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/103408/app-icon.svg)
     no-repeat center;
   background-size: cover;
   z-index: 33;
   overflow: hidden;
 }
-.sign-in-metamask {
+.text-6 {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -449,7 +450,7 @@ button {
   letter-spacing: -0.4px;
   z-index: 31;
 }
-.home-indicator {
+.box-5 {
   position: relative;
   width: 134px;
   height: 5px;
@@ -458,38 +459,40 @@ button {
   z-index: 15;
   border-radius: 100px;
 }
-.logo {
+.pic-4 {
   position: absolute;
   width: 63.898px;
   height: 71.201px;
   top: 167px;
   left: 116px;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/175732/app-logo.svg)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/103408/logo-image.svg)
     no-repeat center;
   background-size: cover;
   z-index: 17;
   overflow: hidden;
 }
-.pet {
+.text-7 {
   display: flex;
   align-items: flex-start;
-  justify-content: center;
+  justify-content: flex-start;
   position: absolute;
-  width: 83.981px;
-  height: 58.421px;
-  top: 172.477px;
-  left: 194.504px;
+  width: 114px;
+  height: 68px;
+  top: 170px;
+  left: 189px;
   color: #000000;
   font-family: Tsukushi B Round Gothic, var(--default-font-family);
-  font-size: 57.91941833496094px;
+  font-size: 33.922977447509766px;
   font-weight: 400;
-  line-height: 57.919px;
-  text-align: center;
-  text-transform: capitalize;
-  white-space: nowrap;
+  line-height: 33.923px;
+  text-align: left;
+  text-overflow: initial;
+  text-transform: uppercase;
   z-index: 18;
-  -webkit-text-stroke: 2.413px #000000;
+  overflow: hidden;
+  -webkit-text-stroke: 1.413px #000000;
 }
+
 
 </style>
   

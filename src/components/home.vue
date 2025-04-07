@@ -1,98 +1,95 @@
 <template>
-    <div class="main-container">
-      <div class="top-navigation">
-        <div class="status-bar">
-          <div class="left-side">
-            <div class="status-bar-time"><span class="time">9:41</span></div>
+<div class="main-container">
+    <div class="wrapper">
+      <div class="wrapper-2">
+        <div class="box">
+          <div class="group"><span class="text">9:41</span></div>
+        </div>
+        <div class="section">
+          <div class="box-2">
+            <div class="section-2"></div>
+            <div class="wrapper-3"></div>
           </div>
-          <div class="dynamic-island">
-            <div class="status-bar-dynamic-island">
-              <div class="true-depth-camera"></div>
-              <div class="facetime-camera"></div>
-            </div>
-          </div>
-          <div class="right-side">
-            <div class="signal-wifi-battery">
-              <div class="icon-mobile-signal"></div>
-              <div class="wifi"></div>
-              <div class="status-bar-battery"></div>
-            </div>
+        </div>
+        <div class="wrapper-4">
+          <div class="section-3">
+            <div class="img"></div>
+            <div class="img-2"></div>
+            <div class="img-3"></div>
           </div>
         </div>
       </div>
-      <div class="flex-row">
-        <div class="group"></div>
-        <span class="hello-jenny">hello,jenny!</span
-        ><span class="activity-overview">activity overview</span>
-      </div>
-      <div class="flex-row-fc">
-        <div class="rectangle"></div>
-        <div class="rectangle-1">
-          <div class="group-2"></div>
-          <div class="flex-column-ab">
-            <span class="judy-french-bulldog">judy-法国斗牛犬</span>
-            <div class="age-months">
-              <span class="age">1 </span><span class="age-3">岁 </span
-              ><span class="age-4">3</span><span class="months"> 个月</span>
-            </div>
-            <div class="rectangle-5"><span class="accompanied">已陪伴</span></div>
+    </div>
+    <div class="box-3">
+      <div class="img-4"></div>
+      <span class="text-2">hello,jenny!</span
+      ><span class="text-3">activity overview</span>
+    </div>
+    <div class="box-4">
+      <div class="box-5"></div>
+      <div class="section-4">
+        <div class="pic"></div>
+        <div class="wrapper-5">
+          <span class="text-4">judy-法国斗牛犬</span>
+          <div class="wrapper-6">
+            <span class="text-5">1 </span><span class="text-6">岁 </span
+            ><span class="text-7">3</span><span class="text-8"> 个月</span>
           </div>
-        </div>
-        <div class="rectangle-6">
-          <div class="image"></div>
-          <div class="flex-column-c">
-            <span class="judy-french-bulldog-7">judy-法国斗牛犬</span>
-            <div class="age-8">
-              <span class="number-1">1 </span><span class="years">岁 </span
-              ><span class="number-1-9">3</span
-              ><span class="months-a"> 个月</span>
-            </div>
-            <div class="rectangle-b">
-              <span class="already-accompanied">已陪伴</span>
-            </div>
-          </div>
+          <div class="pic-2"><span class="text-9">已陪伴</span></div>
         </div>
       </div>
-      <div class="rectangle-c" @click="goToNearby">
-        <div class="image-d"></div>
-        <span class="people-nearby">People nearby</span>
-        <div class="group-e"></div>
-        <div class="group-f"></div>
-        <div class="group-10"></div>
-        <div class="group-11"></div>
-      </div>
-      <div class="flex-row-fda">
-        <div class="rectangle-12">
-          <div class="rectangle-13">
-            <div class="group-14">
-              <div class="flex-row-eb">
-                <span class="activity-overview-15">activity overview</span
-                ><span class="week">week</span>
-                <div class="vector"></div>
-              </div>
-              <div class="flex-row-bc">
-                <div class="frame"><span class="calories">卡路里：0.0</span></div>
-                <div class="frame-16">
-                  <span class="kilometers">公里：0.0</span>
-                </div>
-              </div>
-            </div>
+      <div class="wrapper-7">
+        <div class="pic-3"></div>
+        <div class="section-5">
+          <span class="text-a">judy-法国斗牛犬</span>
+          <div class="wrapper-8">
+            <span class="text-b">1 </span><span class="text-c">岁 </span
+            ><span class="text-d">3</span><span class="text-e"> 个月</span>
           </div>
+          <div class="img-5"><span class="text-f">已陪伴</span></div>
         </div>
-        <div class="rectangle-17"></div>
       </div>
-      <div class="frame-18">
-        <div @click="goToHome"></div> 
+    </div>
+    <div class="wrapper-9" @click="goToNearby">
+      <div class="pic-4"></div>
+      <span class="text-10">周围有趣的狗</span>
+      <div class="img-6"></div>
+      <div class="img-7"></div>
+      <div class="img-8"></div>
+      <div class="img-9"></div>
+    </div>
+    <div class="group-2">
+      <div class="group-3">
+        <div class="section-6">
+          <div class="pic-5">
+            <div class="group-4">
+              <span class="text-11">activity overview</span
+              ><span class="text-12">week</span>
+              <div class="pic-6"></div>
+            </div>
+            <div class="pic-7">
+              <div @click="goToHome"></div> 
 <div @click="goToNearby"></div> 
 <div @click="goToRunning"></div>
 <div @click="goToshop"></div> 
-      </div>
 
-      <div class="home-indicator"></div>
+            </div>
+            <div class="wrapper-a"></div>
+            <div class="box-6">
+              <div class="section-7">
+                <span class="text-13">卡路里：0.0</span>
+              </div>
+              <div class="box-7"><span class="text-14">公里：0.0</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section-8"></div>
     </div>
-  </template>
+  </div>
+</template>
   
-  <script setup>
+<script setup>
     import { useRouter } from 'vue-router';
 
 const router = useRouter();
@@ -111,7 +108,7 @@ const goToshop  = () => {
 };
 </script>
   
-  <style scoped>
+<style scoped> 
 :root {
   --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
@@ -138,12 +135,12 @@ button {
 .main-container {
   position: relative;
   width: 393px;
-  height: 1127px;
+  height: 852px;
   margin: 0 auto;
   background: linear-gradient(180deg, #fffcdb, #ffffff);
   overflow: hidden;
 }
-.top-navigation {
+.wrapper {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -154,7 +151,7 @@ button {
   margin: 0 0 0 0;
   backdrop-filter: blur(10px);
 }
-.status-bar {
+.wrapper-2 {
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -166,7 +163,7 @@ button {
   height: 59px;
   z-index: 1;
 }
-.left-side {
+.box {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -182,7 +179,7 @@ button {
   padding: 0 0 3px 10px;
   z-index: 2;
 }
-.status-bar-time {
+.group {
   flex-shrink: 0;
   position: relative;
   width: 54px;
@@ -190,7 +187,7 @@ button {
   z-index: 3;
   border-radius: 24px;
 }
-.time {
+.text {
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -209,7 +206,7 @@ button {
   letter-spacing: -0.32px;
   z-index: 4;
 }
-.dynamic-island {
+.section {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -222,7 +219,7 @@ button {
   min-height: 0;
   z-index: 5;
 }
-.status-bar-dynamic-island {
+.box-2 {
   flex-shrink: 0;
   position: relative;
   width: 125px;
@@ -231,7 +228,7 @@ button {
   z-index: 6;
   border-radius: 100px;
 }
-.true-depth-camera {
+.section-2 {
   position: absolute;
   width: 80px;
   height: 37px;
@@ -243,7 +240,7 @@ button {
   overflow: hidden;
   border-radius: 100px;
 }
-.facetime-camera {
+.wrapper-3 {
   position: absolute;
   width: 37px;
   height: 37px;
@@ -255,7 +252,7 @@ button {
   overflow: hidden;
   border-radius: 100px;
 }
-.right-side {
+.wrapper-4 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -270,7 +267,7 @@ button {
   padding: 0 11px 0 0;
   z-index: 9;
 }
-.signal-wifi-battery {
+.section-3 {
   display: flex;
   align-items: flex-start;
   flex-wrap: nowrap;
@@ -280,56 +277,56 @@ button {
   width: 78.401px;
   z-index: 10;
 }
-.icon-mobile-signal {
+.img {
   flex-shrink: 0;
   position: relative;
   width: 18px;
   height: 12px;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/184336/mobile-signal-icon.svg)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/113605/signal-icon.svg)
     no-repeat center;
   background-size: cover;
   z-index: 11;
 }
-.wifi {
+.img-2 {
   flex-shrink: 0;
   position: relative;
   width: 17px;
   height: 11.834px;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/184336/wifi-icon.svg)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/113605/wifi-icon.svg)
     no-repeat center;
   background-size: 100% 100%;
   z-index: 12;
 }
-.status-bar-battery {
+.img-3 {
   flex-shrink: 0;
   position: relative;
   width: 27.401px;
   height: 13px;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/184336/battery-icon.svg)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/113605/battery-icon.svg)
     no-repeat center;
   background-size: cover;
   z-index: 13;
 }
-.flex-row {
+.box-3 {
   position: relative;
   width: 338px;
   height: 54px;
   margin: 27px 0 0 28px;
   z-index: 16;
 }
-.group {
+.img-4 {
   position: absolute;
   width: 54px;
   height: 54px;
   top: 0;
   left: 284px;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/184336/user-profile-photo.png)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/113605/profile-avatar.png)
     no-repeat center;
   background-size: cover;
   z-index: 16;
   border-radius: 50%;
 }
-.hello-jenny {
+.text-2 {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -347,7 +344,7 @@ button {
   white-space: nowrap;
   z-index: 14;
 }
-.activity-overview {
+.text-3 {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -365,7 +362,7 @@ button {
   white-space: nowrap;
   z-index: 15;
 }
-.flex-row-fc {
+.box-4 {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -375,7 +372,7 @@ button {
   margin: 27px 0 0 -219px;
   z-index: 20;
 }
-.rectangle {
+.box-5 {
   flex-shrink: 0;
   position: relative;
   width: 265px;
@@ -384,7 +381,7 @@ button {
   z-index: 20;
   border-radius: 20px;
 }
-.rectangle-1 {
+.section-4 {
   flex-shrink: 0;
   position: relative;
   width: 265px;
@@ -393,19 +390,19 @@ button {
   z-index: 18;
   border-radius: 20px;
 }
-.group-2 {
+.pic {
   position: absolute;
   width: 76px;
   height: 81px;
   top: 12px;
   left: 10px;
-  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-04-05/2xsgDKgwPe.png)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/114129/main-container-background.png)
     no-repeat center;
   background-size: cover;
   z-index: 22;
   border-radius: 10px;
 }
-.flex-column-ab {
+.wrapper-5 {
   position: absolute;
   width: 136px;
   height: 45.375px;
@@ -414,7 +411,7 @@ button {
   font-size: 0px;
   z-index: 26;
 }
-.judy-french-bulldog {
+.text-4 {
   display: block;
   position: relative;
   height: 21px;
@@ -429,7 +426,7 @@ button {
   white-space: nowrap;
   z-index: 23;
 }
-.age-months {
+.wrapper-6 {
   position: absolute;
   width: 71px;
   height: 24px;
@@ -444,7 +441,7 @@ button {
   white-space: nowrap;
   z-index: 26;
 }
-.age {
+.text-5 {
   position: relative;
   color: #000000;
   font-family: Inter, var(--default-font-family);
@@ -454,7 +451,7 @@ button {
   text-align: left;
   text-transform: capitalize;
 }
-.age-3 {
+.text-6 {
   position: relative;
   color: #000000;
   font-family: Inter, var(--default-font-family);
@@ -464,7 +461,7 @@ button {
   text-align: left;
   text-transform: capitalize;
 }
-.age-4 {
+.text-7 {
   position: relative;
   color: #000000;
   font-family: Inter, var(--default-font-family);
@@ -474,7 +471,7 @@ button {
   text-align: left;
   text-transform: capitalize;
 }
-.months {
+.text-8 {
   position: relative;
   color: #000000;
   font-family: Inter, var(--default-font-family);
@@ -484,19 +481,19 @@ button {
   text-align: left;
   text-transform: capitalize;
 }
-.rectangle-5 {
+.pic-2 {
   position: absolute;
   width: 47px;
   height: 16px;
   top: 29.375px;
   left: 80px;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/184336/accompanied-badge.png)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/113605/rating-badge-1.png)
     no-repeat center;
   background-size: cover;
   z-index: 24;
   border-radius: 10px;
 }
-.accompanied {
+.text-9 {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -514,7 +511,7 @@ button {
   white-space: nowrap;
   z-index: 25;
 }
-.rectangle-6 {
+.wrapper-7 {
   flex-shrink: 0;
   position: relative;
   width: 265px;
@@ -523,19 +520,19 @@ button {
   z-index: 19;
   border-radius: 20px;
 }
-.image {
+.pic-3 {
   position: absolute;
   width: 76px;
   height: 81px;
   top: 12px;
   left: 13px;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/184336/second-dog-photo.png)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/113605/product-thumbnail-2.png)
     no-repeat center;
   background-size: cover;
   z-index: 28;
   border-radius: 10px;
 }
-.flex-column-c {
+.section-5 {
   position: absolute;
   width: 136px;
   height: 45.375px;
@@ -544,7 +541,7 @@ button {
   font-size: 0px;
   z-index: 32;
 }
-.judy-french-bulldog-7 {
+.text-a {
   display: block;
   position: relative;
   height: 21px;
@@ -559,7 +556,7 @@ button {
   white-space: nowrap;
   z-index: 29;
 }
-.age-8 {
+.wrapper-8 {
   position: absolute;
   width: 71px;
   height: 24px;
@@ -574,7 +571,7 @@ button {
   white-space: nowrap;
   z-index: 32;
 }
-.number-1 {
+.text-b {
   position: relative;
   color: #000000;
   font-family: Inter, var(--default-font-family);
@@ -584,7 +581,7 @@ button {
   text-align: left;
   text-transform: capitalize;
 }
-.years {
+.text-c {
   position: relative;
   color: #000000;
   font-family: Inter, var(--default-font-family);
@@ -594,7 +591,7 @@ button {
   text-align: left;
   text-transform: capitalize;
 }
-.number-1-9 {
+.text-d {
   position: relative;
   color: #000000;
   font-family: Inter, var(--default-font-family);
@@ -604,7 +601,7 @@ button {
   text-align: left;
   text-transform: capitalize;
 }
-.months-a {
+.text-e {
   position: relative;
   color: #000000;
   font-family: Inter, var(--default-font-family);
@@ -614,19 +611,19 @@ button {
   text-align: left;
   text-transform: capitalize;
 }
-.rectangle-b {
+.img-5 {
   position: absolute;
   width: 47px;
   height: 16px;
   top: 29.375px;
   left: 80px;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/184336/already-accompanied-badge.png)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/113605/rating-badge-2.png)
     no-repeat center;
   background-size: cover;
   z-index: 30;
   border-radius: 10px;
 }
-.already-accompanied {
+.text-f {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -644,29 +641,29 @@ button {
   white-space: nowrap;
   z-index: 31;
 }
-.rectangle-c {
+.wrapper-9 {
   position: relative;
   width: 364px;
   height: 161px;
   margin: 18px 0 0 16px;
   background: #8d8d8d;
-  z-index: 49;
+  z-index: 48;
   border-radius: 20px;
 }
-.image-d {
+.pic-4 {
   position: absolute;
   width: 364px;
   height: 161px;
   top: 0;
   left: 0;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/184336/people-nearby-background.png)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/113605/featured-banner.png)
     no-repeat center;
   background-size: cover;
   opacity: 0.5;
-  z-index: 50;
+  z-index: 49;
   border-radius: 20px;
 }
-.people-nearby {
+.text-10 {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -681,71 +678,71 @@ button {
   line-height: 23.579px;
   text-align: left;
   white-space: nowrap;
-  z-index: 51;
+  z-index: 50;
 }
-.group-e {
+.img-6 {
   position: absolute;
   width: 38px;
   height: 43px;
   top: 16px;
   left: 291px;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/184336/nearby-person-1.png)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/113605/feature-icon-1.png)
     no-repeat center;
   background-size: cover;
-  z-index: 53;
+  z-index: 52;
 }
-.group-f {
+.img-7 {
   position: absolute;
   width: 76px;
   height: 76px;
   top: 45px;
   left: 143px;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/184336/nearby-person-2.png)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/113605/feature-icon-2.png)
     no-repeat center;
   background-size: cover;
-  z-index: 52;
+  z-index: 51;
 }
-.group-10 {
+.img-8 {
   position: absolute;
   width: 38px;
   height: 43px;
   top: 81px;
   left: 44px;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/184336/nearby-person-3.png)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/113605/feature-icon-3.png)
     no-repeat center;
   background-size: cover;
-  z-index: 55;
+  z-index: 54;
 }
-.group-11 {
+.img-9 {
   position: absolute;
   width: 38px;
   height: 43px;
   top: 107px;
   left: 247px;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/184336/nearby-person-4.png)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/113605/feature-icon-4.png)
     no-repeat center;
   background-size: cover;
-  z-index: 54;
+  z-index: 53;
 }
-.flex-row-fda {
+.group-2 {
   position: relative;
   width: 383.475px;
   height: 542.172px;
   margin: 5.622px 0 0 5.829px;
   z-index: 35;
 }
-.rectangle-12 {
+.group-3 {
   position: absolute;
   width: 380.459px;
   height: 529.753px;
   top: 0;
   left: 50%;
-  background: #698392;
+  background: #ffba6d;
   transform: translate(-50.02%, 0) rotate(-1.73deg);
   z-index: 35;
   border-radius: 31px;
 }
-.rectangle-13 {
+.section-6 {
   position: relative;
   width: 365px;
   height: 519px;
@@ -754,27 +751,27 @@ button {
   z-index: 36;
   border-radius: 31px;
 }
-.group-14 {
+.pic-5 {
   position: absolute;
   width: 365px;
   height: 519px;
   top: 0;
   left: 50%;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/184336/activity-overview-background.png)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/113605/main-product-image.png)
     no-repeat center;
   background-size: cover;
   transform: translate(-50%, 0);
   z-index: 37;
   border-radius: 31px;
 }
-.flex-row-eb {
+.group-4 {
   position: relative;
   width: 304px;
   height: 39.418px;
   margin: 30px 0 0 26px;
   z-index: 41;
 }
-.activity-overview-15 {
+.text-11 {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -792,7 +789,7 @@ button {
   text-transform: capitalize;
   z-index: 38;
 }
-.week {
+.text-12 {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -801,7 +798,7 @@ button {
   height: 19.709px;
   top: 9.854px;
   left: 266px;
-  color: #74aeff;
+  color: #ffffff;
   font-family: Inter, var(--default-font-family);
   font-size: 9.741666793823242px;
   font-weight: 600;
@@ -810,28 +807,55 @@ button {
   text-transform: capitalize;
   z-index: 40;
 }
-.vector {
+.pic-6 {
   position: absolute;
   width: 7px;
   height: 4px;
   top: 15.009px;
   left: 297.5px;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/184336/dropdown-arrow.svg)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/113605/dropdown-arrow.svg)
     no-repeat center;
   background-size: cover;
   z-index: 41;
 }
-.flex-row-bc {
+.pic-7 {
+  position: relative;
+  width: 364px;
+  height: 87px;
+  margin: 198.582px 0 0 1px;
+  background: url(https://static.codia.ai/custom_image/2025-04-07/113605/product-info-banner.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 55;
+  border-radius: 29.5px;
+  display: flex; 
+
+}
+.pic-7 > div {
+            width: 25%;
+            height: 100%;
+            cursor: pointer;
+}
+.wrapper-a {
+  position: relative;
+  width: 134px;
+  height: 5px;
+  margin: 16px 0 0 115px;
+  background: #000000;
+  z-index: 47;
+  border-radius: 100px;
+}
+.box-6 {
   display: flex;
   align-items: center;
   justify-content: space-between;
   position: relative;
   width: 334px;
   height: 68.981px;
-  margin: 340.582px 0 0 16px;
+  margin: 34px 0 0 16px;
   z-index: 44;
 }
-.frame {
+.section-7 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -846,7 +870,7 @@ button {
   z-index: 42;
   border-radius: 43.5px;
 }
-.calories {
+.text-13 {
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -865,7 +889,7 @@ button {
   white-space: nowrap;
   z-index: 43;
 }
-.frame-16 {
+.box-7 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -880,7 +904,7 @@ button {
   z-index: 44;
   border-radius: 43.5px;
 }
-.kilometers {
+.text-14 {
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -899,43 +923,19 @@ button {
   white-space: nowrap;
   z-index: 45;
 }
-.rectangle-17 {
+.section-8 {
   position: absolute;
   width: 383.475px;
   height: 528.25px;
   top: 13.921px;
   left: 50%;
-  background: #aee2ff;
+  background: #ffe99b;
   transform: translate(-50%, 0) rotate(2.08deg);
   z-index: 34;
   border-radius: 31px;
 }
-.frame-18 {
-  position: relative;
-  width: 364px;
-  height: 87px;
-  margin: 5.206px 0 0 16px;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/184336/bottom-navigation-bar.png)
-    no-repeat center;
-  background-size: cover;
-  z-index: 46;
-  border-radius: 29.5px;
-  display: flex; 
-}
-.frame-18 > div {
-            width: 25%;
-            height: 100%;
-            cursor: pointer;
-        }
-.home-indicator {
-  position: relative;
-  width: 134px;
-  height: 5px;
-  margin: 22px 0 0 130px;
-  background: #000000;
-  z-index: 48;
-  border-radius: 100px;
-}
 
 </style>
+
+
   

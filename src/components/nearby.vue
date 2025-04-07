@@ -1,109 +1,108 @@
 <template>
-  <div class="main-container">
-    <div class="top-navigation">
-      <div class="status-bar">
-        <div class="left-side">
-          <div class="status-bar-time"><span class="time">9:41</span></div>
+<div class="main-container">
+    <div class="box">
+      <div class="box-2">
+        <div class="box-3">
+          <div class="section"><span class="text">9:41</span></div>
         </div>
-        <div class="dynamic-island">
-          <div class="status-bar-dynamic-island">
-            <div class="true-depth-camera"></div>
-            <div class="facetime-camera"></div>
+        <div class="box-4">
+          <div class="group">
+            <div class="group-2"></div>
+            <div class="box-5"></div>
           </div>
         </div>
-        <div class="right-side">
-          <div class="signal-wifi-battery">
-            <div class="icon-mobile-signal"></div>
-            <div class="wifi"></div>
-            <div class="status-bar-battery"></div>
+        <div class="wrapper">
+          <div class="group-3">
+            <div class="img"></div>
+            <div class="pic"></div>
+            <div class="img-2"></div>
           </div>
         </div>
       </div>
     </div>
-    <div class="flex-row">
-      <span class="matches">matches</span>
-      <div class="message-reminder"></div>
+    <div class="group-4">
+      <span class="text-2">matches</span>
+      <div class="img-3"></div>
     </div>
-    <div class="flex-row-a">
-      <div class="rectangle"><div class="etc"></div></div>
-      <div class="rectangle-1"><span class="all">all</span></div>
-      <div class="rectangle-2"><span class="new">new</span></div>
-      <div class="rectangle-3"><span class="nearby">nearby</span></div>
+    <div class="box-6">
+      <div class="section-2"><div class="pic-2"></div></div>
+      <div class="section-3"><span class="text-3">all</span></div>
+      <div class="group-5"><span class="text-4">new</span></div>
+      <div class="box-7"><span class="text-5">nearby</span></div>
     </div>
-    <div class="flex-row-c">
-      <div class="image">
-        <div class="flex-row-4">
-          <div class="ellipse"></div>
-          <span class="online">online</span>
+    <div class="wrapper-2">
+      <div class="pic-3">
+        <div class="wrapper-3">
+          <div class="img-4"></div>
+          <span class="text-6">online</span>
         </div>
-        <span class="pupu">pupu</span
-        ><span class="usa-california">USA.California</span>
-        <div class="flex-row-5">
-          <div class="rectangle-6">
-            <div class="rectangle-7"><div class="error"></div></div>
+        <span class="text-7">pupu</span
+        ><span class="text-8">USA.California</span>
+        <div class="section-4">
+          <div class="wrapper-4">
+            <div class="wrapper-5"><div class="pic-4"></div></div>
           </div>
-          <div class="rectangle-8"></div>
-          <div class="rectangle-9"><div class="heart"></div></div>
-          <div class="chat"></div>
+          <div class="box-8"></div>
+          <div class="box-9"><div class="img-5"></div></div>
+          <div class="pic-5"></div>
         </div>
       </div>
-      <div class="image-a">
-        <div class="image-b">
-          <div class="rectangle-c">
-            <span class="she-likes-you">she likes you!</span>
-            <div class="vector"></div>
+      <div class="pic-6">
+        <div class="img-6">
+          <div class="wrapper-6">
+            <span class="text-9">she likes you!</span>
+            <div class="img-7"></div>
           </div>
         </div>
       </div>
-      <div class="image-d">
-        <div class="flex-row-d">
-          <div class="ellipse-e"></div>
-          <span class="online-f">online</span>
+      <div class="img-8">
+        <div class="group-6">
+          <div class="pic-7"></div>
+          <span class="text-a">online</span>
         </div>
-        <span class="pupu-10">pupu</span
-        ><span class="usa-california-11">USA.California</span>
-        <div class="flex-row-fa">
-          <div class="rectangle-12">
-            <div class="rectangle-13"><div class="error-14"></div></div>
+        <span class="text-b">pupu</span
+        ><span class="text-c">USA.California</span>
+        <div class="box-a">
+          <div class="wrapper-7">
+            <div class="group-7"><div class="img-9"></div></div>
           </div>
-          <div class="rectangle-15"></div>
-          <div class="rectangle-16"><div class="heart-17"></div></div>
-          <div class="chat-18"></div>
+          <div class="group-8"></div>
+          <div class="group-9"><div class="img-a"></div></div>
+          <div class="img-b"></div>
         </div>
       </div>
-      <div class="image-19">
-        <div class="flex-row-d-1a">
-          <div class="ellipse-1b"></div>
-          <span class="online-1c">Online</span>
+      <div class="section-5">
+        <div class="box-b">
+          <div class="wrapper-8">
+            <div class="img-c"></div>
+            <span class="text-d">Online</span>
+          </div>
+          <span class="text-e">pupu</span>
+          <div class="box-c">
+            <div class="img-d"></div>
+            <div class="pic-8"></div>
+            <span class="text-f">china.shanghai</span>
+          </div>
         </div>
-        <div class="flex-row-c-1d">
-          <div class="pupu-1e"></div>
-          <span class="pupu-1f">pupu</span>
-        </div>
-        <div class="flex-row-a-20">
-          <div class="rectangle-21"></div>
-          <div class="address"></div>
-          <span class="china-shanghai">china.shanghai</span>
-        </div>
-        <div class="flex-row-c-22">
-          <div class="rectangle-23"><div class="group"></div></div>
-          <div class="rectangle-24"><div class="chat-25"></div></div>
-          <div class="rectangle-26"><div class="heart-27"></div></div>
+        <div class="box-d">
+          <div class="pic-9"><div class="img-e"></div></div>
+          <div class="pic-a"><div class="img-f"></div></div>
+          <div class="img-10"><div class="img-11"></div></div>
         </div>
       </div>
     </div>
-    <div class="frame">
-      <div @click="goToHome"></div> 
+    <div class="pic-b">
+<div @click="goToHome"></div> 
 <div @click="goToNearby"></div> 
 <div @click="goToRunning"></div>
 <div @click="goToshop"></div> 
     </div>
-    <div class="home-indicator"></div>
+    <div class="section-6"></div>
   </div>
 </template>
 
 <script setup>
-    import { useRouter } from 'vue-router';
+import { useRouter } from 'vue-router';
 
 const router = useRouter();
 
@@ -153,7 +152,7 @@ button {
   background: linear-gradient(180deg, #fffcda, #ffffff);
   overflow: hidden;
 }
-.top-navigation {
+.box {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -164,7 +163,7 @@ button {
   margin: 0 0 0 0;
   backdrop-filter: blur(10px);
 }
-.status-bar {
+.box-2 {
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -176,7 +175,7 @@ button {
   height: 59px;
   z-index: 1;
 }
-.left-side {
+.box-3 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -192,7 +191,7 @@ button {
   padding: 0 0 3px 10px;
   z-index: 2;
 }
-.status-bar-time {
+.section {
   flex-shrink: 0;
   position: relative;
   width: 54px;
@@ -200,7 +199,7 @@ button {
   z-index: 3;
   border-radius: 24px;
 }
-.time {
+.text {
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -219,7 +218,7 @@ button {
   letter-spacing: -0.32px;
   z-index: 4;
 }
-.dynamic-island {
+.box-4 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -232,7 +231,7 @@ button {
   min-height: 0;
   z-index: 5;
 }
-.status-bar-dynamic-island {
+.group {
   flex-shrink: 0;
   position: relative;
   width: 125px;
@@ -241,7 +240,7 @@ button {
   z-index: 6;
   border-radius: 100px;
 }
-.true-depth-camera {
+.group-2 {
   position: absolute;
   width: 80px;
   height: 37px;
@@ -253,7 +252,7 @@ button {
   overflow: hidden;
   border-radius: 100px;
 }
-.facetime-camera {
+.box-5 {
   position: absolute;
   width: 37px;
   height: 37px;
@@ -265,7 +264,7 @@ button {
   overflow: hidden;
   border-radius: 100px;
 }
-.right-side {
+.wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -280,7 +279,7 @@ button {
   padding: 0 11px 0 0;
   z-index: 9;
 }
-.signal-wifi-battery {
+.group-3 {
   display: flex;
   align-items: flex-start;
   flex-wrap: nowrap;
@@ -290,37 +289,37 @@ button {
   width: 78.401px;
   z-index: 10;
 }
-.icon-mobile-signal {
+.img {
   flex-shrink: 0;
   position: relative;
   width: 18px;
   height: 12px;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/184521/mobile-signal-icon.svg)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/105544/signal-icon.svg)
     no-repeat center;
   background-size: cover;
   z-index: 11;
 }
-.wifi {
+.pic {
   flex-shrink: 0;
   position: relative;
   width: 17px;
   height: 11.834px;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/184521/wifi-icon.svg)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/105544/wifi-icon.svg)
     no-repeat center;
   background-size: 100% 100%;
   z-index: 12;
 }
-.status-bar-battery {
+.img-2 {
   flex-shrink: 0;
   position: relative;
   width: 27.401px;
   height: 13px;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/184521/battery-icon.svg)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/105544/battery-icon.svg)
     no-repeat center;
   background-size: cover;
   z-index: 13;
 }
-.flex-row {
+.group-4 {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -330,7 +329,7 @@ button {
   margin: 24px 0 0 27px;
   z-index: 19;
 }
-.matches {
+.text-2 {
   flex-shrink: 0;
   position: relative;
   height: 40px;
@@ -344,25 +343,25 @@ button {
   white-space: nowrap;
   z-index: 19;
 }
-.message-reminder {
+.img-3 {
   flex-shrink: 0;
   position: relative;
   width: 60px;
   height: 60px;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/184521/message-reminder-icon.png)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/105544/profile-avatar.png)
     no-repeat center;
   background-size: cover;
   z-index: 18;
   overflow: hidden;
 }
-.flex-row-a {
+.box-6 {
   position: relative;
   width: 346px;
   height: 54px;
   margin: 5px 0 0 27px;
   z-index: 24;
 }
-.rectangle {
+.section-2 {
   position: absolute;
   width: 70px;
   height: 54px;
@@ -372,18 +371,18 @@ button {
   z-index: 20;
   border-radius: 32px;
 }
-.etc {
+.pic-2 {
   position: relative;
   width: 32px;
   height: 32px;
   margin: 11px 0 0 18px;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/184521/etc-icon.svg)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/105544/category-icon.svg)
     no-repeat center;
   background-size: cover;
   z-index: 27;
   overflow: hidden;
 }
-.rectangle-1 {
+.section-3 {
   position: absolute;
   width: 70px;
   height: 54px;
@@ -393,7 +392,7 @@ button {
   z-index: 21;
   border-radius: 32px;
 }
-.all {
+.text-3 {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -411,7 +410,7 @@ button {
   white-space: nowrap;
   z-index: 26;
 }
-.rectangle-2 {
+.group-5 {
   position: absolute;
   width: 79px;
   height: 54px;
@@ -421,7 +420,7 @@ button {
   z-index: 22;
   border-radius: 32px;
 }
-.new {
+.text-4 {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -439,7 +438,7 @@ button {
   white-space: nowrap;
   z-index: 23;
 }
-.rectangle-3 {
+.box-7 {
   position: absolute;
   width: 104px;
   height: 54px;
@@ -449,7 +448,7 @@ button {
   z-index: 24;
   border-radius: 32px;
 }
-.nearby {
+.text-5 {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -467,26 +466,26 @@ button {
   white-space: nowrap;
   z-index: 25;
 }
-.flex-row-c {
+.wrapper-2 {
   position: relative;
   width: 1041px;
   height: 465px;
   margin: 29px 0 0 -323px;
-  z-index: 55;
+  z-index: 52;
 }
-.image {
+.pic-3 {
   position: absolute;
   width: 339px;
   height: 447px;
   top: 0;
   left: 0;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/184521/profile-image-1.png)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/105544/product-card-1.png)
     no-repeat center;
   background-size: cover;
-  z-index: 55;
+  z-index: 52;
   border-radius: 20px;
 }
-.flex-row-4 {
+.wrapper-3 {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -494,20 +493,20 @@ button {
   width: 56px;
   height: 17px;
   margin: 298px 0 0 23px;
-  z-index: 62;
+  z-index: 59;
 }
-.ellipse {
+.img-4 {
   flex-shrink: 0;
   position: relative;
   width: 7px;
   height: 7px;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/184521/online-status-ellipse.svg)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/105544/dot-indicator.svg)
     no-repeat center;
   background-size: cover;
-  z-index: 62;
+  z-index: 59;
   border-radius: 50%;
 }
-.online {
+.text-6 {
   flex-shrink: 0;
   position: relative;
   height: 17px;
@@ -519,9 +518,9 @@ button {
   text-align: left;
   text-transform: capitalize;
   white-space: nowrap;
-  z-index: 57;
+  z-index: 54;
 }
-.pupu {
+.text-7 {
   display: block;
   position: relative;
   height: 40px;
@@ -534,9 +533,9 @@ button {
   text-align: left;
   text-transform: capitalize;
   white-space: nowrap;
-  z-index: 56;
+  z-index: 53;
 }
-.usa-california {
+.text-8 {
   display: block;
   position: relative;
   height: 17px;
@@ -549,47 +548,47 @@ button {
   text-align: left;
   text-transform: capitalize;
   white-space: nowrap;
-  z-index: 58;
+  z-index: 55;
 }
-.flex-row-5 {
+.section-4 {
   position: relative;
   width: 296px;
   height: 53px;
   margin: 5px 0 0 21px;
-  z-index: 63;
+  z-index: 60;
 }
-.rectangle-6 {
+.wrapper-4 {
   position: absolute;
   width: 88px;
   height: 53px;
   top: 0;
   left: 0;
   background: #ffffff;
-  z-index: 59;
+  z-index: 56;
   border-radius: 10px;
 }
-.rectangle-7 {
+.wrapper-5 {
   position: relative;
   width: 28px;
   height: 28px;
   margin: 11px 0 0 30px;
   background: #000000;
-  z-index: 66;
+  z-index: 63;
   overflow: visible auto;
   border-radius: 5px;
 }
-.error {
+.pic-4 {
   position: relative;
   width: 18px;
   height: 19px;
   margin: 5px 0 0 5px;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/184521/error-icon.svg)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/105544/heart-icon.svg)
     no-repeat center;
   background-size: cover;
-  z-index: 67;
+  z-index: 64;
   overflow: hidden;
 }
-.rectangle-8 {
+.box-8 {
   position: absolute;
   width: 88px;
   height: 53px;
@@ -597,75 +596,75 @@ button {
   left: 104px;
   background: #ffffff;
   opacity: 0.5;
-  z-index: 60;
+  z-index: 57;
   border-radius: 10px;
 }
-.rectangle-9 {
+.box-9 {
   position: absolute;
   width: 88px;
   height: 53px;
   top: 0;
   left: 208px;
   background: #ff5218;
-  z-index: 61;
+  z-index: 58;
   border-radius: 10px;
 }
-.heart {
+.img-5 {
   position: relative;
   width: 32px;
   height: 32px;
   margin: 11px 0 0 28px;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/184521/heart-icon.svg)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/105544/cart-icon.svg)
     no-repeat center;
   background-size: cover;
-  z-index: 64;
+  z-index: 61;
   overflow: hidden;
 }
-.chat {
+.pic-5 {
   position: absolute;
   width: 15.2%;
   height: 84.91%;
   top: 7.55%;
   left: 42.57%;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/184521/chat-icon.svg)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/105544/plus-icon.svg)
     no-repeat center;
   background-size: 100% 100%;
-  z-index: 63;
+  z-index: 60;
   overflow: hidden;
 }
-.image-a {
+.pic-6 {
   position: absolute;
   width: 339px;
   height: 447px;
   top: 0;
   left: 350px;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/184521/profile-image-2.png)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/105544/product-card-2.png)
     no-repeat center;
   background-size: cover;
   z-index: 29;
 }
-.image-b {
+.img-6 {
   position: absolute;
   width: 339px;
   height: 447px;
   top: 0;
   left: 0;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/184521/profile-image-3.png)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/105544/product-card-3.png)
     no-repeat center;
   background-size: cover;
   z-index: 30;
   border-radius: 20px;
 }
-.rectangle-c {
+.wrapper-6 {
   position: relative;
   width: 155px;
   height: 27px;
   margin: 16px 0 0 21px;
   background: #ff5218;
-  z-index: 69;
+  z-index: 66;
   border-radius: 13.5px;
 }
-.she-likes-you {
+.text-9 {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -682,32 +681,32 @@ button {
   text-transform: capitalize;
   white-space: nowrap;
   letter-spacing: -0.32px;
-  z-index: 70;
+  z-index: 67;
 }
-.vector {
+.img-7 {
   position: absolute;
   width: 9.03%;
   height: 48.15%;
   top: 29.63%;
   left: 8.39%;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/184521/vector-icon.svg)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/105544/location-pin.svg)
     no-repeat center;
   background-size: 100% 100%;
-  z-index: 71;
+  z-index: 68;
 }
-.image-d {
+.img-8 {
   position: absolute;
   width: 339px;
   height: 447px;
   top: 0;
   left: 702px;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/184521/profile-image-4.png)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/105544/product-card-4.png)
     no-repeat center;
   background-size: cover;
-  z-index: 41;
+  z-index: 38;
   border-radius: 20px;
 }
-.flex-row-d {
+.group-6 {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -715,20 +714,20 @@ button {
   width: 56px;
   height: 17px;
   margin: 298px 0 0 23px;
-  z-index: 48;
+  z-index: 45;
 }
-.ellipse-e {
+.pic-7 {
   flex-shrink: 0;
   position: relative;
   width: 7px;
   height: 7px;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/184521/online-status-ellipse-2.svg)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/105544/dot-indicator-2.svg)
     no-repeat center;
   background-size: cover;
-  z-index: 48;
+  z-index: 45;
   border-radius: 50%;
 }
-.online-f {
+.text-a {
   flex-shrink: 0;
   position: relative;
   height: 17px;
@@ -740,9 +739,9 @@ button {
   text-align: left;
   text-transform: capitalize;
   white-space: nowrap;
-  z-index: 43;
+  z-index: 40;
 }
-.pupu-10 {
+.text-b {
   display: block;
   position: relative;
   height: 40px;
@@ -755,9 +754,9 @@ button {
   text-align: left;
   text-transform: capitalize;
   white-space: nowrap;
-  z-index: 42;
+  z-index: 39;
 }
-.usa-california-11 {
+.text-c {
   display: block;
   position: relative;
   height: 17px;
@@ -770,47 +769,47 @@ button {
   text-align: left;
   text-transform: capitalize;
   white-space: nowrap;
-  z-index: 44;
+  z-index: 41;
 }
-.flex-row-fa {
+.box-a {
   position: relative;
   width: 296px;
   height: 53px;
   margin: 5px 0 0 21px;
-  z-index: 49;
+  z-index: 46;
 }
-.rectangle-12 {
+.wrapper-7 {
   position: absolute;
   width: 88px;
   height: 53px;
   top: 0;
   left: 0;
   background: #ffffff;
-  z-index: 45;
+  z-index: 42;
   border-radius: 10px;
 }
-.rectangle-13 {
+.group-7 {
   position: relative;
   width: 28px;
   height: 28px;
   margin: 11px 0 0 30px;
   background: #000000;
-  z-index: 52;
+  z-index: 49;
   overflow: visible auto;
   border-radius: 5px;
 }
-.error-14 {
+.img-9 {
   position: relative;
   width: 18px;
   height: 19px;
   margin: 5px 0 0 5px;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/184521/error-icon-2.svg)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/105544/heart-icon-2.svg)
     no-repeat center;
   background-size: cover;
-  z-index: 53;
+  z-index: 50;
   overflow: hidden;
 }
-.rectangle-15 {
+.group-8 {
   position: absolute;
   width: 88px;
   height: 53px;
@@ -818,77 +817,90 @@ button {
   left: 104px;
   background: #ffffff;
   opacity: 0.5;
-  z-index: 46;
+  z-index: 43;
   border-radius: 10px;
 }
-.rectangle-16 {
+.group-9 {
   position: absolute;
   width: 88px;
   height: 53px;
   top: 0;
   left: 208px;
   background: #ff5218;
-  z-index: 47;
+  z-index: 44;
   border-radius: 10px;
 }
-.heart-17 {
+.img-a {
   position: relative;
   width: 32px;
   height: 32px;
   margin: 11px 0 0 28px;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/184521/heart-icon-2.svg)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/105544/cart-icon-2.svg)
     no-repeat center;
   background-size: cover;
-  z-index: 50;
+  z-index: 47;
   overflow: hidden;
 }
-.chat-18 {
+.img-b {
   position: absolute;
   width: 15.2%;
   height: 84.91%;
   top: 7.55%;
   left: 42.57%;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/184521/chat-icon-2.svg)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/105544/plus-icon-2.svg)
     no-repeat center;
   background-size: 100% 100%;
-  z-index: 49;
+  z-index: 46;
   overflow: hidden;
 }
-.image-19 {
+.section-5 {
   position: absolute;
   width: 314px;
   height: 414px;
   top: 51px;
   left: 362px;
-  background: #fff9c0;
-  z-index: 17;
+  background: transparent;
+  z-index: 100;
   border-radius: 20px;
 }
-.flex-row-d-1a {
+.box-b {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 2px;
+  position: relative;
+  width: 122px;
+  margin: 227px 0 0 9px;
+  z-index: 69;
+}
+.wrapper-8 {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 5px;
   position: relative;
   width: 55px;
-  height: 17px;
-  margin: 234px 0 0 9px;
-  z-index: 76;
+  z-index: 70;
 }
-.ellipse-1b {
+.img-c {
   flex-shrink: 0;
   position: relative;
   width: 7px;
   height: 7px;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/184521/online-status-ellipse-3.svg)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/105544/dot-indicator-3.svg)
     no-repeat center;
   background-size: cover;
-  z-index: 36;
+  z-index: 71;
 }
-.online-1c {
+.text-d {
   display: flex;
   align-items: flex-start;
   justify-content: center;
   flex-shrink: 0;
+  flex-basis: auto;
   position: relative;
   width: 43px;
   height: 17px;
@@ -900,34 +912,13 @@ button {
   text-align: center;
   text-transform: capitalize;
   white-space: nowrap;
-  z-index: 76;
+  z-index: 72;
 }
-.flex-row-c-1d {
+.text-e {
+  flex-shrink: 0;
+  flex-basis: auto;
   position: relative;
-  width: 83px;
   height: 40px;
-  margin: -2px 0 0 7px;
-  z-index: 32;
-  overflow: visible auto;
-}
-.pupu-1e {
-  position: relative;
-  width: 78.087px;
-  height: 30.996px;
-  margin: 7.501px 0 0 2.386px;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/184521/pupu-background.svg)
-    no-repeat center;
-  background-size: cover;
-  z-index: 31;
-}
-.pupu-1f {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  position: absolute;
-  height: 40px;
-  top: 0;
-  left: 0;
   color: #000000;
   font-family: Inter, var(--default-font-family);
   font-size: 33.27004623413086px;
@@ -936,39 +927,39 @@ button {
   text-align: left;
   text-transform: capitalize;
   white-space: nowrap;
-  z-index: 32;
+  z-index: 73;
 }
-.flex-row-a-20 {
+.box-c {
+  flex-shrink: 0;
   position: relative;
   width: 122px;
   height: 23px;
-  margin: 2px 0 0 9px;
-  z-index: 75;
+  z-index: 74;
 }
-.rectangle-21 {
+.img-d {
   position: absolute;
   width: 122px;
   height: 23px;
   top: 0;
   left: 0;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/184521/address-background.svg)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/105544/rating-background.svg)
     no-repeat center;
   background-size: cover;
-  z-index: 73;
+  z-index: 75;
 }
-.address {
+.pic-8 {
   position: absolute;
   width: 18px;
   height: 17px;
   top: 3px;
   left: 7px;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/184521/address-icon.svg)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/105544/star-icon.svg)
     no-repeat center;
   background-size: cover;
-  z-index: 74;
+  z-index: 76;
   overflow: hidden;
 }
-.china-shanghai {
+.text-f {
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -985,86 +976,86 @@ button {
   text-align: center;
   text-transform: capitalize;
   white-space: nowrap;
-  z-index: 75;
+  z-index: 77;
 }
-.flex-row-c-22 {
+.box-d {
   display: flex;
   align-items: center;
   justify-content: space-between;
   position: relative;
   width: 296px;
   height: 53px;
-  margin: 9px 0 0 9px;
-  z-index: 35;
+  margin: 12px 0 0 9px;
+  z-index: 33;
 }
-.rectangle-23 {
+.pic-9 {
   flex-shrink: 0;
   position: relative;
   width: 88px;
   height: 53px;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/184521/rectangle-button-1.svg)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/105544/button-background-1.svg)
     no-repeat center;
   background-size: cover;
-  z-index: 33;
+  z-index: 31;
 }
-.group {
+.img-e {
   position: relative;
   width: 28px;
   height: 28px;
   margin: 11px 0 0 30px;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/184521/group-icon.png)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/105544/heart-icon-3.png)
     no-repeat center;
   background-size: cover;
-  z-index: 39;
+  z-index: 36;
 }
-.rectangle-24 {
+.pic-a {
   flex-shrink: 0;
   position: relative;
   width: 88px;
   height: 53px;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/184521/rectangle-button-2.svg)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/105544/button-background-2.svg)
     no-repeat center;
   background-size: cover;
-  z-index: 34;
+  z-index: 32;
 }
-.chat-25 {
+.img-f {
   position: relative;
   width: 45px;
   height: 45px;
   margin: 4px 0 0 22px;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/184521/chat-icon-3.svg)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/105544/size-icon.svg)
     no-repeat center;
   background-size: 100% 100%;
-  z-index: 37;
+  z-index: 34;
   overflow: hidden;
 }
-.rectangle-26 {
+.img-10 {
   flex-shrink: 0;
   position: relative;
   width: 88px;
   height: 53px;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/184521/rectangle-button-3.svg)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/105544/button-background-3.svg)
     no-repeat center;
   background-size: cover;
-  z-index: 35;
+  z-index: 33;
 }
-.heart-27 {
+.img-11 {
   position: relative;
   width: 32px;
   height: 32px;
   margin: 11px 0 0 28px;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/184521/heart-icon-3.svg)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/105544/cart-icon-3.svg)
     no-repeat center;
   background-size: cover;
-  z-index: 38;
+  z-index: 35;
   overflow: hidden;
 }
-.frame {
+.pic-b {
   position: relative;
   width: 364px;
   height: 87px;
   margin: 40px 0 0 16px;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/184521/bottom-frame.png)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/105544/navigation-bar.png)
     no-repeat center;
   background-size: cover;
   z-index: 14;
@@ -1072,12 +1063,12 @@ button {
   display: flex; 
 
 }
-.frame > div {
+.pic-b > div {
             width: 25%;
             height: 100%;
             cursor: pointer;
-        }
-.home-indicator {
+}
+.section-6 {
   position: relative;
   width: 134px;
   height: 5px;
@@ -1087,5 +1078,5 @@ button {
   border-radius: 100px;
 }
 
-
 </style>
+

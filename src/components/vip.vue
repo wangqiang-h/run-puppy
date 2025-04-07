@@ -1,76 +1,70 @@
 <template>
-    <div class="main-container">
-      <div class="top-navigation">
-        <div class="status-bar">
-          <div class="left-side">
-            <div class="status-bar-time"><span class="time">9:41</span></div>
-          </div>
-          <div class="dynamic-island">
-            <div class="status-bar-dynamic-island">
-              <div class="true-depth-camera"></div>
-              <div class="facetime-camera"></div>
-            </div>
-          </div>
-          <div class="right-side">
-            <div class="signal-wifi-battery">
-              <div class="icon-mobile-signal"></div>
-              <div class="wifi"></div>
-              <div class="status-bar-battery"></div>
-            </div>
+  <div class="main-container">
+    <div class="wrapper">
+      <div class="group">
+        <div class="section">
+          <div class="group-2"><span class="text">9:41</span></div>
+        </div>
+        <div class="group-3">
+          <div class="section-2">
+            <div class="wrapper-2"></div>
+            <div class="section-3"></div>
           </div>
         </div>
-      </div>
-      <div class="frame">
-        <div class="frame-1" @click="goshop"><div class="vector"></div></div>
-        <span class="details">Details</span>
-        <div class="frame-2">
-          <div class="frame-3">
-            <div class="ellipse"></div>
-            <div class="ellipse-4"></div>
-            <div class="ellipse-5"></div>
+        <div class="section-4">
+          <div class="wrapper-3">
+            <div class="pic"></div>
+            <div class="img"></div>
+            <div class="pic-2"></div>
           </div>
         </div>
       </div>
-      <div class="mask-group"></div>
-      <span class="try-snapchat-plus">try snapchat+for $1.99/mol</span
-      ><span class="three-months-offer"
-        >3 months for $1.99/mounth,then $1.99?mo!</span
-      >
-      <div class="rectangle">
-        <div class="flex-column-ecb">
-          <span class="first-three-months">$1.99/mo for the first 3 months</span
-          ><span class="first-three-months-6"
-            >$1.99/mo for the first 3 months</span
-          ><span class="monthly-plan">monthly plan</span>
-          <div class="frame-7"><span class="save-50-percent">save 50%</span></div>
-        </div>
-        <div class="frame-8"><div class="tick-mark"></div></div>
-      </div>
-      <div class="rectangle-9">
-        <div class="flex-column-e">
-          <span class="first-months">$1.99/mo for the first 3 months</span
-          ><span class="first-months-a">$1.99/mo for the first 3 months</span
-          ><span class="monthly-plan-b">monthly plan</span>
-          <div class="frame-c"><span class="save-percent">save 50%</span></div>
-        </div>
-        <div class="frame-d"><div class="checkmark"></div></div>
-      </div>
-      <div class="rectangle-e">
-        <div class="flex-column-a">
-          <span class="first-months-f">$1.99/mo for the first 3 months</span
-          ><span class="first-three-months-10"
-            >$1.99/mo for the first 3 months</span
-          ><span class="monthly-plan-11">monthly plan</span>
-          <div class="frame-12">
-            <span class="save-50-percent-13">save 50%</span>
-          </div>
-        </div>
-        <div class="frame-14"><div class="checkmark-15"></div></div>
-      </div>
-      <div class="frame-16"><span class="subscribe">subscribe</span></div>
-      <div class="home-indicator"></div>
-      <div class="rectangle-17"></div>
     </div>
+    <div class="box">
+      <div class="wrapper-4" @click="goshop"><div class="img-2"></div></div>
+      <span class="text-2">Details</span>
+      <div class="section-5">
+        <div class="section-6">
+          <div class="img-3"></div>
+          <div class="pic-3"></div>
+          <div class="pic-4"></div>
+        </div>
+      </div>
+    </div>
+    <div class="pic-5"></div>
+    <span class="text-3">Pet+ Subscription Plans</span
+    ><span class="text-4">Subscribe to meet puppies & new friends</span>
+    <div class="img-4">
+      <div class="section-7">
+        <span class="text-5">$5/mo for the first 3 months</span
+        ><span class="text-6">撸狗，工作摸鱼的最小颗粒度</span
+        ><span class="text-7">monthly plan</span>
+        <div class="group-4"><span class="text-8">save 30%</span></div>
+      </div>
+      <div class="wrapper-5"><div class="img-5"></div></div>
+    </div>
+    <div class="pic-6">
+      <div class="box-2">
+        <span class="text-9">$3/month for one year</span
+        ><span class="text-a">5折是坚持陪伴期许的浪漫</span
+        ><span class="text-b">Annual plan</span>
+        <div class="box-3"><span class="text-c">save 50%</span></div>
+      </div>
+      <div class="box-4"><div class="img-6"></div></div>
+    </div>
+    <div class="img-7">
+      <div class="group-5">
+        <span class="text-d">$100/month for lifetime access</span
+        ><span class="text-e">陪伴，生活最长情的告白</span
+        ><span class="text-f">Annual plan</span>
+        <div class="section-8"><span class="text-10">save 80%</span></div>
+      </div>
+      <div class="box-5"><div class="pic-7"></div></div>
+    </div>
+    <div class="group-6"><span class="text-11">subscribe</span></div>
+    <div class="wrapper-6"></div>
+    <div class="pic-8"></div>
+  </div>
   </template>
   
   <script setup>
@@ -83,7 +77,7 @@ const goshop = () => {
 };
 </script>
   
-  <style scoped>
+<style scoped>
 :root {
   --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
@@ -115,7 +109,7 @@ button {
   background: #1d1e20;
   overflow: hidden;
 }
-.top-navigation {
+.wrapper {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -127,7 +121,7 @@ button {
   background: #1d1e20;
   backdrop-filter: blur(10px);
 }
-.status-bar {
+.group {
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -139,7 +133,7 @@ button {
   height: 59px;
   z-index: 1;
 }
-.left-side {
+.section {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -155,7 +149,7 @@ button {
   padding: 0 0 3px 10px;
   z-index: 2;
 }
-.status-bar-time {
+.group-2 {
   flex-shrink: 0;
   position: relative;
   width: 54px;
@@ -163,7 +157,7 @@ button {
   z-index: 3;
   border-radius: 24px;
 }
-.time {
+.text {
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -182,7 +176,7 @@ button {
   letter-spacing: -0.32px;
   z-index: 4;
 }
-.dynamic-island {
+.group-3 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -195,7 +189,7 @@ button {
   min-height: 0;
   z-index: 5;
 }
-.status-bar-dynamic-island {
+.section-2 {
   flex-shrink: 0;
   position: relative;
   width: 125px;
@@ -204,7 +198,7 @@ button {
   z-index: 6;
   border-radius: 100px;
 }
-.true-depth-camera {
+.wrapper-2 {
   position: absolute;
   width: 80px;
   height: 37px;
@@ -216,7 +210,7 @@ button {
   overflow: hidden;
   border-radius: 100px;
 }
-.facetime-camera {
+.section-3 {
   position: absolute;
   width: 37px;
   height: 37px;
@@ -228,7 +222,7 @@ button {
   overflow: hidden;
   border-radius: 100px;
 }
-.right-side {
+.section-4 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -243,7 +237,7 @@ button {
   padding: 0 11px 0 0;
   z-index: 9;
 }
-.signal-wifi-battery {
+.wrapper-3 {
   display: flex;
   align-items: flex-start;
   flex-wrap: nowrap;
@@ -253,37 +247,37 @@ button {
   width: 78.401px;
   z-index: 10;
 }
-.icon-mobile-signal {
+.pic {
   flex-shrink: 0;
   position: relative;
   width: 18px;
   height: 12px;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/185156/mobile-signal-icon.svg)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/113340/signal-icon.svg)
     no-repeat center;
   background-size: cover;
   z-index: 11;
 }
-.wifi {
+.img {
   flex-shrink: 0;
   position: relative;
   width: 17px;
   height: 11.834px;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/185156/wifi-icon.svg)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/113340/wifi-icon.svg)
     no-repeat center;
   background-size: cover;
   z-index: 12;
 }
-.status-bar-battery {
+.pic-2 {
   flex-shrink: 0;
   position: relative;
   width: 27.401px;
   height: 13px;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/185156/battery-icon.svg)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/113340/battery-icon.svg)
     no-repeat center;
   background-size: cover;
   z-index: 13;
 }
-.frame {
+.box {
   display: flex;
   align-items: center;
   flex-wrap: nowrap;
@@ -294,7 +288,7 @@ button {
   margin: 11px 0 0 21px;
   z-index: 18;
 }
-.frame-1 {
+.wrapper-4 {
   display: flex;
   align-items: center;
   flex-wrap: nowrap;
@@ -308,17 +302,17 @@ button {
   z-index: 19;
   border-radius: 25.5px;
 }
-.vector {
+.img-2 {
   flex-shrink: 0;
   position: relative;
   width: 11px;
   height: 15px;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/185156/back-arrow.svg)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/113340/back-arrow.svg)
     no-repeat center;
   background-size: cover;
   z-index: 20;
 }
-.details {
+.text-2 {
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -337,7 +331,7 @@ button {
   white-space: nowrap;
   z-index: 21;
 }
-.frame-2 {
+.section-5 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -352,7 +346,7 @@ button {
   z-index: 22;
   border-radius: 25.5px;
 }
-.frame-3 {
+.section-6 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -363,70 +357,76 @@ button {
   width: 3px;
   z-index: 23;
 }
-.ellipse {
+.img-3 {
   align-self: stretch;
   flex-shrink: 0;
   position: relative;
   min-width: 0;
   height: 3px;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/185156/ellipse-dot-1.svg)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/113340/menu-dot-1.svg)
     no-repeat center;
   background-size: cover;
   z-index: 24;
   border-radius: 50%;
 }
-.ellipse-4 {
+.pic-3 {
   align-self: stretch;
   flex-shrink: 0;
   position: relative;
   min-width: 0;
   height: 3px;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/185156/ellipse-dot-2.svg)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/113340/menu-dot-2.svg)
     no-repeat center;
   background-size: cover;
   z-index: 25;
   border-radius: 50%;
 }
-.ellipse-5 {
+.pic-4 {
   align-self: stretch;
   flex-shrink: 0;
   position: relative;
   min-width: 0;
   height: 3px;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/185156/ellipse-dot-3.svg)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/113340/menu-dot-3.svg)
     no-repeat center;
   background-size: cover;
   z-index: 26;
   border-radius: 50%;
 }
-.mask-group {
+.pic-5 {
   position: relative;
-  width: 176.676px;
+  width: 206px;
   height: 75.484px;
-  margin: 53.068px 0 0 107.95px;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/185156/snapchat-logo.png)
+  margin: 59px 0 0 109px;
+  background: url(https://static.codia.ai/custom_image/2025-04-07/113340/logo.png)
     no-repeat center;
   background-size: cover;
   z-index: 27;
 }
-.try-snapchat-plus {
-  display: block;
+.text-3 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
   position: relative;
+  width: 393px;
   height: 22px;
-  margin: 53.448px 0 0 69px;
+  margin: 47.516px 0 0 0;
   color: #ffffff;
   font-family: Inter, var(--default-font-family);
   font-size: 18px;
   font-weight: 500;
   line-height: 21.784px;
-  text-align: left;
+  text-align: center;
   text-transform: capitalize;
   white-space: nowrap;
   z-index: 16;
 }
-.three-months-offer {
-  display: block;
+.text-4 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
   position: relative;
+  width: 287px;
   height: 15px;
   margin: 7px 0 0 53px;
   color: #ffffff;
@@ -434,25 +434,25 @@ button {
   font-size: 12px;
   font-weight: 500;
   line-height: 14.523px;
-  text-align: left;
+  text-align: center;
   text-transform: capitalize;
   white-space: nowrap;
   letter-spacing: 0.48px;
   opacity: 0.5;
   z-index: 17;
 }
-.rectangle {
+.img-4 {
   position: relative;
   width: 367.848px;
   height: 105.069px;
   margin: 17.825px 0 0 13.624px;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/185156/subscription-card-1.png)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/113340/card-background-1.png)
     no-repeat center;
   background-size: cover;
   z-index: 29;
   border-radius: 17px;
 }
-.flex-column-ecb {
+.section-7 {
   position: absolute;
   height: 73.446px;
   top: 12.241px;
@@ -461,7 +461,7 @@ button {
   font-size: 0px;
   z-index: 35;
 }
-.first-three-months {
+.text-5 {
   display: block;
   position: relative;
   height: 19.382px;
@@ -476,7 +476,7 @@ button {
   white-space: nowrap;
   z-index: 31;
 }
-.first-three-months-6 {
+.text-6 {
   display: block;
   position: relative;
   height: 15.301px;
@@ -492,7 +492,7 @@ button {
   letter-spacing: 0.48px;
   z-index: 32;
 }
-.monthly-plan {
+.text-7 {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -510,7 +510,7 @@ button {
   white-space: nowrap;
   z-index: 30;
 }
-.frame-7 {
+.group-4 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -519,14 +519,14 @@ button {
   position: absolute;
   width: 59.736px;
   height: 21.422px;
-  top: 1.02px;
-  left: 131px;
+  top: 0.93px;
+  left: 137.368px;
   padding: 4px 5px 4px 5px;
   background: linear-gradient(135deg, #fcefa9, #e5af4d);
   z-index: 35;
   border-radius: 3px;
 }
-.save-50-percent {
+.text-8 {
   flex-shrink: 0;
   flex-basis: auto;
   position: relative;
@@ -541,7 +541,7 @@ button {
   white-space: nowrap;
   z-index: 36;
 }
-.frame-8 {
+.wrapper-5 {
   display: flex;
   align-items: center;
   flex-wrap: nowrap;
@@ -556,42 +556,42 @@ button {
   z-index: 33;
   border-radius: 23px;
 }
-.tick-mark {
+.img-5 {
   flex-shrink: 0;
   position: relative;
   width: 37px;
   height: 37px;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/185156/tick-mark-icon.svg)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/113340/profile-avatar-1.svg)
     no-repeat center;
   background-size: cover;
   z-index: 34;
   overflow: hidden;
 }
-.rectangle-9 {
+.pic-6 {
   position: relative;
   width: 367.848px;
   height: 105.069px;
   margin: 16.321px 0 0 13.624px;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/185156/subscription-card-2.png)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/113340/card-background-2.png)
     no-repeat center;
   background-size: cover;
   z-index: 38;
   border-radius: 17px;
 }
-.flex-column-e {
+.box-2 {
   position: absolute;
-  height: 73.446px;
-  top: 12.241px;
+  height: 73.902px;
+  top: 11.785px;
   right: 83.84px;
   left: 22.008px;
   font-size: 0px;
   z-index: 44;
 }
-.first-months {
+.text-9 {
   display: block;
   position: relative;
   height: 19.382px;
-  margin: 30.603px 0 0 0;
+  margin: 31.059px 0 0 0;
   color: #ffffff;
   font-family: Inter, var(--default-font-family);
   font-size: 16px;
@@ -602,7 +602,7 @@ button {
   white-space: nowrap;
   z-index: 40;
 }
-.first-months-a {
+.text-a {
   display: block;
   position: relative;
   height: 15.301px;
@@ -618,14 +618,14 @@ button {
   letter-spacing: 0.48px;
   z-index: 41;
 }
-.monthly-plan-b {
+.text-b {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   position: absolute;
-  height: 22.442px;
+  height: 23px;
   top: 0;
-  left: calc(50% - 131px);
+  left: calc(50% - 130.63px);
   color: #ffffff;
   font-family: Inter, var(--default-font-family);
   font-size: 18px;
@@ -636,7 +636,7 @@ button {
   white-space: nowrap;
   z-index: 39;
 }
-.frame-c {
+.box-3 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -645,14 +645,14 @@ button {
   position: absolute;
   width: 59.736px;
   height: 21.422px;
-  top: 1.02px;
-  left: 131px;
+  top: 2px;
+  left: 137.368px;
   padding: 4px 5px 4px 5px;
   background: linear-gradient(135deg, #fcefa9, #e5af4d);
   z-index: 44;
   border-radius: 3px;
 }
-.save-percent {
+.text-c {
   flex-shrink: 0;
   flex-basis: auto;
   position: relative;
@@ -667,7 +667,7 @@ button {
   white-space: nowrap;
   z-index: 45;
 }
-.frame-d {
+.box-4 {
   display: flex;
   align-items: center;
   flex-wrap: nowrap;
@@ -682,29 +682,29 @@ button {
   z-index: 42;
   border-radius: 23px;
 }
-.checkmark {
+.img-6 {
   flex-shrink: 0;
   position: relative;
   width: 37px;
   height: 37px;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/185156/checkmark-icon-1.svg)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/113340/profile-avatar-2.svg)
     no-repeat center;
   background-size: cover;
   z-index: 43;
   overflow: hidden;
 }
-.rectangle-e {
+.img-7 {
   position: relative;
   width: 367.848px;
   height: 105.069px;
   margin: 16.322px 0 0 13.624px;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/185156/subscription-card-3.png)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/113340/card-background-3.png)
     no-repeat center;
   background-size: cover;
   z-index: 47;
   border-radius: 17px;
 }
-.flex-column-a {
+.group-5 {
   position: absolute;
   height: 73.446px;
   top: 12.241px;
@@ -713,7 +713,7 @@ button {
   font-size: 0px;
   z-index: 53;
 }
-.first-months-f {
+.text-d {
   display: block;
   position: relative;
   height: 19.382px;
@@ -728,7 +728,7 @@ button {
   white-space: nowrap;
   z-index: 49;
 }
-.first-three-months-10 {
+.text-e {
   display: block;
   position: relative;
   height: 15.301px;
@@ -744,7 +744,7 @@ button {
   letter-spacing: 0.48px;
   z-index: 50;
 }
-.monthly-plan-11 {
+.text-f {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -762,7 +762,7 @@ button {
   white-space: nowrap;
   z-index: 48;
 }
-.frame-12 {
+.section-8 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -771,14 +771,14 @@ button {
   position: absolute;
   width: 59.736px;
   height: 21.422px;
-  top: 1.02px;
-  left: 131px;
+  top: 1.153px;
+  left: 137.368px;
   padding: 4px 5px 4px 5px;
   background: linear-gradient(135deg, #fcefa9, #e5af4d);
   z-index: 53;
   border-radius: 3px;
 }
-.save-50-percent-13 {
+.text-10 {
   flex-shrink: 0;
   flex-basis: auto;
   position: relative;
@@ -793,7 +793,7 @@ button {
   white-space: nowrap;
   z-index: 54;
 }
-.frame-14 {
+.box-5 {
   display: flex;
   align-items: center;
   flex-wrap: nowrap;
@@ -808,18 +808,18 @@ button {
   z-index: 51;
   border-radius: 23px;
 }
-.checkmark-15 {
+.pic-7 {
   flex-shrink: 0;
   position: relative;
   width: 37px;
   height: 37px;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/185156/checkmark-icon-2.svg)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/113340/profile-avatar-3.svg)
     no-repeat center;
   background-size: cover;
   z-index: 52;
   overflow: hidden;
 }
-.frame-16 {
+.group-6 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -834,7 +834,7 @@ button {
   z-index: 56;
   border-radius: 29.5px;
 }
-.subscribe {
+.text-11 {
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -853,7 +853,7 @@ button {
   white-space: nowrap;
   z-index: 57;
 }
-.home-indicator {
+.wrapper-6 {
   position: relative;
   width: 134px;
   height: 5px;
@@ -862,17 +862,18 @@ button {
   z-index: 15;
   border-radius: 100px;
 }
-.rectangle-17 {
+.pic-8 {
   position: absolute;
   width: 393px;
   height: 43px;
   top: 671px;
   left: 0;
-  background: url(https://static.codia.ai/custom_image/2025-04-05/185156/bottom-gradient.png)
+  background: url(https://static.codia.ai/custom_image/2025-04-07/113340/bottom-navigation.png)
     no-repeat center;
   background-size: cover;
   z-index: 55;
 }
 
 </style>
+
   
