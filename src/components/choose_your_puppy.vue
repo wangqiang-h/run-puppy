@@ -43,6 +43,7 @@
           <span class="teddy-span">泰迪</span>
         </div>
       </div>
+      <div class="slider-container">
       <div class="image-div-7">
         <div class="image-div-8" @click="goToBeforeStarted">
           <div class="rectangle-div"></div>
@@ -62,6 +63,7 @@
         <div class="home-indicator"></div>
       </div>
     </div>
+  </div>
   </template>
   
   <script setup>
@@ -294,13 +296,26 @@ button {
 .frame {
   display: flex;
   align-items: center;
-  justify-content: center;
   flex-wrap: nowrap;
   gap: 8px;
   position: relative;
-  width: 517px;
-  margin: 30px 0 0 -62px;
+  width: 100%; /* 改为100%以利用父容器宽度 */
+  padding: 0 20px; /* 添加内边距防止内容贴边 */
+  margin: 30px 0 0 0; /* 调整外边距 */
   z-index: 15;
+  overflow-x: auto; /* 允许水平滚动 */
+  white-space: nowrap; /* 防止子元素换行 */
+  -webkit-overflow-scrolling: touch; /* 优化移动端滚动体验 */
+  scroll-snap-type: x mandatory; /* 可选：添加滚动吸附效果 */
+}
+/* 为每个子项添加滚动吸附点（可选） */
+.frame > * {
+  scroll-snap-align: start;
+}
+
+/* 隐藏滚动条 */
+.frame::-webkit-scrollbar {
+  display: none; /* Chrome, Safari 和 Opera */
 }
 .frame-1 {
   display: flex;
@@ -635,6 +650,23 @@ button {
   background: #000000;
   z-index: 38;
   border-radius: 100px;
+}
+
+.slider-container {
+    position: relative;
+    width: 100%;
+    height: 550px; /* 设置一个固定高度 */
+    margin-top: 20px;
+    overflow-y: scroll; /* 启用垂直滚动 */
+    scroll-snap-type: y mandatory; /* 可选：添加滚动吸附效果 */
+    -webkit-overflow-scrolling: touch; /* 平滑滚动效果 */
+    
+    /* 隐藏滚动条 */
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE 和 Edge */
+}
+.slider-container::-webkit-scrollbar {
+    display: none; /* Chrome, Safari 和 Opera */
 }
 
 </style>
