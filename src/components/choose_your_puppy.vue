@@ -60,9 +60,9 @@
           <div class="rectangle-b"></div>
           <div class="rectangle-c"></div>
         </div>
-        <div class="home-indicator"></div>
       </div>
     </div>
+    <div class="home-indicator"></div>
   </div>
   </template>
   
@@ -646,10 +646,11 @@ button {
   position: relative;
   width: 134px;
   height: 5px;
-  margin: 21px 0 0 100px;
+  margin: 21px 0 0 130px;
   background: #000000;
-  z-index: 38;
+  z-index: 100;
   border-radius: 100px;
+  top: -50px;
 }
 
 .slider-container {

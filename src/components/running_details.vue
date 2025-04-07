@@ -20,7 +20,7 @@
           </div>
         </div>
       </div>
-      <div class="frame"><div class="vector"></div></div>
+      <div class="frame"><div class="vector" @click="goToRunningHome"></div></div>
       <div class="flex-row-ad">
         <div class="frame-2"><span class="calorie">卡路里：0.0</span></div>
         <div class="frame-3"><span class="kilometer">公里：0.0</span></div>

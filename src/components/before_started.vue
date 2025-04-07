@@ -20,7 +20,7 @@
         </div>
       </div>
     </div>
-    <div class="rectangle" v-show="showText" @click="deletemsg">
+    <div class="rectangle" :style="{ visibility: showText ? 'visible' : 'hidden' }"  @click="deletemsg">
     <span class="hello" v-show="showText">hello!</span>
     <span class="hansen-come-run" v-show="showText">Hansen,Come and run together!</span>
   </div>

@@ -20,7 +20,7 @@
           </div>
         </div>
       </div>
-      <div class="rectangle" v-show="showText" @click="goToRunningDetails">
+      <div class="rectangle" :style="{ visibility: showText ? 'visible' : 'hidden' }"  @click="goToRunningDetails">
         <div class="group"></div>
         <div class="group-2"></div>
         <div class="flex-column-a">
