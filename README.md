@@ -1,5 +1,4 @@
-# Vue 3 + Vite
+# dog puppy
+我们为想坚持运动但缺乏动力的年轻人打造一款AI虚拟宠物陪跑App，将用户真实跑步行为与宠物的互动反馈和状态变化实时联动，区别于传统健身或电子宠物类产品，具备强陪伴感与可持续变现潜力
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
