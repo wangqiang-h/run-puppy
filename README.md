@@ -1,4 +1,5 @@
-# dog puppy
-我们为想坚持运动但缺乏动力的年轻人打造一款AI虚拟宠物陪跑App，将用户真实跑步行为与宠物的互动反馈和状态变化实时联动，区别于传统健身或电子宠物类产品，具备强陪伴感与可持续变现潜力
+# Run Puppy
+A Story About Companionship and Exercise
+An AI running companion app designed for young users who lack motivation. Real-world running syncs with your virtual pet’s reactions, offering a unique blend of fitness and emotional support beyond traditional workout or pet apps.
 
 
